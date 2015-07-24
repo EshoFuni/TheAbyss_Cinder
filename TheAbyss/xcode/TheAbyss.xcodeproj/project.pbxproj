@@ -70,6 +70,7 @@
 		D0548D341D5F4CE4920DB5D9 /* b2RopeJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7438B309CC614EF9AC4AFA40 /* b2RopeJoint.cpp */; };
 		DBBDBF38794D45848C5323FD /* b2Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C16A743A788D4B7487DB5A82 /* b2Timer.cpp */; };
 		DE118A7CF3AC45A2AA525F0A /* b2StackAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78B40E5C25C540F1B11DDEC0 /* b2StackAllocator.cpp */; };
+		F1278C331B622EE700EADA30 /* Cam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1278C311B622EE700EADA30 /* Cam.cpp */; };
 		F13BC17E1B6227DC007F364C /* AGCubus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17A1B6227DC007F364C /* AGCubus.cpp */; };
 		F13BC17F1B6227DC007F364C /* CreatureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17B1B6227DC007F364C /* CreatureManager.cpp */; };
 		F13BC1801B6227DC007F364C /* SuperCreature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17C1B6227DC007F364C /* SuperCreature.cpp */; };
@@ -211,6 +212,8 @@
 		EC7D5836EDBD431B9AA4F99A /* b2ContactSolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = b2ContactSolver.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ContactSolver.cpp; sourceTree = "<group>"; };
 		F02B1CE4A941441CBF052D0F /* b2EdgeAndPolygonContact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = b2EdgeAndPolygonContact.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp; sourceTree = "<group>"; };
 		F0A84819F5DC4687AAAF42C3 /* OscBundle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscBundle.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src/OscBundle.cpp; sourceTree = "<group>"; };
+		F1278C311B622EE700EADA30 /* Cam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Cam.cpp; path = ../src/Cam.cpp; sourceTree = "<group>"; };
+		F1278C321B622EE700EADA30 /* Cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cam.h; path = ../include/Cam.h; sourceTree = "<group>"; };
 		F13BC17A1B6227DC007F364C /* AGCubus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AGCubus.cpp; path = ../src/AGCubus.cpp; sourceTree = "<group>"; };
 		F13BC17B1B6227DC007F364C /* CreatureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CreatureManager.cpp; path = ../src/CreatureManager.cpp; sourceTree = "<group>"; };
 		F13BC17C1B6227DC007F364C /* SuperCreature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SuperCreature.cpp; path = ../src/SuperCreature.cpp; sourceTree = "<group>"; };
@@ -320,10 +323,11 @@
 			isa = PBXGroup;
 			children = (
 				A2FB986A37D3411891557C20 /* TheAbyssApp.cpp */,
-				F13BC17A1B6227DC007F364C /* AGCubus.cpp */,
+				F1278C311B622EE700EADA30 /* Cam.cpp */,
 				F13BC17B1B6227DC007F364C /* CreatureManager.cpp */,
 				F13BC17C1B6227DC007F364C /* SuperCreature.cpp */,
 				F13BC17D1B6227DC007F364C /* TACreatureExample.cpp */,
+				F13BC17A1B6227DC007F364C /* AGCubus.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -407,12 +411,13 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				552C4297A9234CE68C7CFAE6 /* Resources.h */,
-				F13BC1821B6227F2007F364C /* AGCubus.h */,
+				E92703AFC47741019CC48908 /* TheAbyss_Prefix.pch */,
+				F1278C321B622EE700EADA30 /* Cam.h */,
 				F13BC1831B6227F2007F364C /* CreatureManager.h */,
 				F13BC1841B6227F2007F364C /* SuperCreature.h */,
 				F13BC1851B6227F2007F364C /* TACreatureExample.h */,
-				E92703AFC47741019CC48908 /* TheAbyss_Prefix.pch */,
+				F13BC1821B6227F2007F364C /* AGCubus.h */,
+				552C4297A9234CE68C7CFAE6 /* Resources.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -720,6 +725,7 @@
 				914FE9BBE65742AEB75F92F0 /* b2Fixture.cpp in Sources */,
 				FFD4A45A65A0479BBCA6D3BD /* b2Island.cpp in Sources */,
 				ACE84886F8FE401289DDA860 /* b2World.cpp in Sources */,
+				F1278C331B622EE700EADA30 /* Cam.cpp in Sources */,
 				CC926A597D584AC2B7D60C6A /* b2WorldCallbacks.cpp in Sources */,
 				55F210AA73A14B69813B5311 /* b2ChainAndCircleContact.cpp in Sources */,
 				85D714197C454168A0A1C456 /* b2ChainAndPolygonContact.cpp in Sources */,
