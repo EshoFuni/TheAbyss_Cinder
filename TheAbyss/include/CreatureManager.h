@@ -9,10 +9,11 @@
 #ifndef __TheAbyss__CreatureManager__
 #define __TheAbyss__CreatureManager__
 
-#include <iostream>
+#pragma once
 #include <list>
 
 #include "TACreatureExample.h"
+//#include "SuperCreature.h"
 
 using namespace ci;
 

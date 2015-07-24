@@ -10,11 +10,10 @@
 #ifndef __TheAbyss__TACretureExample__
 #define __TheAbyss__TACretureExample__
 
-#include <iostream>
-
-#include "cinder/Rand.h"
+#pragma once
 
 #include "SuperCreature.h"
+#include "cinder/Rand.h"
 
 using namespace ci;
 
@@ -22,6 +21,7 @@ class TACreatureExample: public SuperCreature{
 public:
     
     TACreatureExample(); // constructor
+    TACreatureExample(bool dummy); // dummy variable
     // METHOD DECLARATION
     void move();
     void draw();
@@ -29,6 +29,7 @@ public:
     
     // VARIABLE DECLARATION
     Vec3f mThresh; // position threshold to change direction
+    //bool dummy;
 };
 
 #endif /* defined(__TheAbyss__TACretureExample__) */

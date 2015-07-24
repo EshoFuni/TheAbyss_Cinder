@@ -21,7 +21,6 @@ TACreatureExample::TACreatureExample(){
     sca = Vec3f(100, 100, 100);
     
     mThresh = Vec3f( Rand::randFloat(640.f)-320.f , Rand::randFloat(480.f)-240.f, Rand::randFloat(500.f)-250.f);
-    
 }
 
 

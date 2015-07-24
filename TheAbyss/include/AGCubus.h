@@ -9,13 +9,16 @@
 #ifndef __TheAbyss__AGCubus__
 #define __TheAbyss__AGCubus__
 
-#include <iostream>
+#pragma once
 
 #include "SuperCreature.h"
 
 
 class AGCubus: public SuperCreature{
-    
+public:
+    AGCubus();
+    void move();
+    void update();
 };
 
 #endif /* defined(__TheAbyss__AGCubus__) */

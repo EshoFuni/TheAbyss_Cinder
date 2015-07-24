@@ -9,7 +9,7 @@
 #ifndef __TheAbyss__SuperCreature__
 #define __TheAbyss__SuperCreature__
 
-#include <iostream>
+#pragma once
 
 using namespace ci;
 using namespace std;

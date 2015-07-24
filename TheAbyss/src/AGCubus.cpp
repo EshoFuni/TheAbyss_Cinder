@@ -7,3 +7,7 @@
 //
 
 #include "AGCubus.h"
+
+AGCubus::AGCubus(){
+
+}
