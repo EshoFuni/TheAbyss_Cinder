@@ -13,9 +13,10 @@ cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Co
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Distance.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Collision/b2Distance.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2DynamicTree.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2TimeOfImpact.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Help.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Help.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2ChainShape.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2CircleShape.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2EdgeShape.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2PolygonShape.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2PolygonShape.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2BlockAllocator.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -32,6 +33,7 @@ cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Crea
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Fixture.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Island.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/b2Island.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2World.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/b2World.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Cam.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Cam.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2WorldCallbacks.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/b2WorldCallbacks.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2ChainAndCircleContact.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2ChainAndPolygonContact.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -42,7 +44,6 @@ cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Ed
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2EdgeAndPolygonContact.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2PolygonAndCircleContact.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2PolygonContact.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonContact.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Cam.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Cam.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2DistanceJoint.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2DistanceJoint.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2FrictionJoint.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2FrictionJoint.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2GearJoint.o /Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2GearJoint.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -1802,29 +1803,34 @@ t1421672386
 s4861456
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/AGCubus.h
-c0000000055B15B3E000000000000011A
-t1437686590
-s282
+c0000000055B204180000000000000113
+t1437729816
+s275
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/Cam.h
-c0000000055B1FDDC00000000000002E9
-t1437728220
-s745
+c0000000055B1FE7800000000000002E5
+t1437728376
+s741
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/CreatureManager.h
-c0000000055B1716C00000000000001F3
-t1437692268
-s499
+c0000000055B2041800000000000001EC
+t1437729816
+s492
+
+N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/Help.h
+c0000000055B204310000000000000205
+t1437729841
+s517
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/SuperCreature.h
-c0000000055B16A5700000000000002A3
-t1437690455
-s675
+c0000000055B20418000000000000029C
+t1437729816
+s668
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/TACreatureExample.h
-c0000000055B168CD000000000000027E
-t1437690061
-s638
+c0000000055B204180000000000000277
+t1437729816
+s631
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/resources/CinderApp.icns
 c0000000055B1EFCE0000000000070375
@@ -1837,14 +1843,19 @@ t1437686590
 s104
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Cam.cpp
-c0000000055B1FDDC000000000000028D
-t1437728220
+c0000000055B1FE78000000000000028D
+t1437728376
 s653
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp
 c0000000055B173E20000000000000369
 t1437692898
 s873
+
+N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Help.cpp
+c0000000055B2032A00000000000001EC
+t1437729578
+s492
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp
 c0000000055B15DEF00000000000001F7
@@ -1857,9 +1868,9 @@ t1437686725
 s1045
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp
-c0000000055B1FDDC00000000000007C3
-t1437728220
-s1987
+c0000000055B20337000000000000065F
+t1437729591
+s1631
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/Info.plist
 c0000000055B1EFCE0000000000000462
@@ -1872,280 +1883,284 @@ t1437724622
 s301
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/TheAbyss.app
-t1437728078
+t1437729822
 s102
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/TheAbyss.app/Contents/Info.plist
-t1437725958
+t1437728376
 s1484
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/TheAbyss.app/Contents/MacOS/TheAbyss
-t1437728221
-s4462708
+t1437729842
+s4470780
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/TheAbyss.app/Contents/PkgInfo
-t1437725958
+t1437728376
 s8
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/TheAbyss.app/Contents/Resources/CinderApp.icns
-t1437725958
+t1437728376
 s459637
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.o
-t1437725963
+t1437729821
 s66684
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Cairo.o
-t1437725972
+t1437728376
 s2671812
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Cam.o
-t1437728221
+t1437728376
 s2064264
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.o
-t1437725964
+t1437729821
 s141576
 
+N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Help.o
+t1437729842
+s1490916
+
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/IpEndpointName.o
-t1437725970
+t1437728376
 s69544
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/NetworkingUtils.o
-t1437725971
+t1437728376
 s70408
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/OscBundle.o
-t1437725970
+t1437728376
 s214184
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/OscListener.o
-t1437725970
+t1437728376
 s518668
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/OscMessage.o
-t1437725970
+t1437728376
 s173988
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/OscOutboundPacketStream.o
-t1437725971
+t1437728376
 s113972
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/OscPrintReceivedElements.o
-t1437725971
+t1437728376
 s152824
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/OscReceivedElements.o
-t1437725971
+t1437728376
 s131880
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/OscSender.o
-t1437725970
+t1437728376
 s198836
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/OscTypes.o
-t1437725971
+t1437728376
 s70432
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.o
-t1437725963
+t1437729821
 s88616
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.o
-t1437725971
+t1437729821
 s100536
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyss.LinkFileList
-c0000000055B1F8F2000000000000236C
-t1437726962
-s9068
+c0000000055B202F700000000000023F3
+t1437729527
+s9203
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o
-t1437728221
-s1871824
+t1437729842
+s1861764
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/UdpSocket.o
-t1437725972
+t1437728376
 s391748
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2BlockAllocator.o
-t1437725961
+t1437728376
 s75272
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Body.o
-t1437725963
+t1437728376
 s133484
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2BroadPhase.o
-t1437725959
+t1437728376
 s79768
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2ChainAndCircleContact.o
-t1437725964
+t1437728376
 s101136
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2ChainAndPolygonContact.o
-t1437725964
+t1437728376
 s101176
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2ChainShape.o
-t1437725961
+t1437728376
 s92808
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2CircleContact.o
-t1437725964
+t1437728376
 s93744
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2CircleShape.o
-t1437725961
+t1437728376
 s87784
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2CollideCircle.o
-t1437725959
+t1437728376
 s83788
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2CollideEdge.o
-t1437725959
+t1437728376
 s107632
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2CollidePolygon.o
-t1437725960
+t1437728376
 s93232
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Collision.o
-t1437725959
+t1437728376
 s94768
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Contact.o
-t1437725965
+t1437728376
 s115876
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2ContactManager.o
-t1437725963
+t1437728376
 s143128
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2ContactSolver.o
-t1437725966
+t1437728376
 s144340
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Distance.o
-t1437725959
+t1437728376
 s107220
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2DistanceJoint.o
-t1437725966
+t1437728376
 s109756
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Draw.o
-t1437725961
+t1437728376
 s73648
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2DynamicTree.o
-t1437725960
+t1437728376
 s107036
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2EdgeAndCircleContact.o
-t1437725966
+t1437728376
 s94020
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2EdgeAndPolygonContact.o
-t1437725966
+t1437728376
 s94060
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2EdgeShape.o
-t1437725961
+t1437728376
 s90968
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Fixture.o
-t1437725964
+t1437728376
 s121500
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2FrictionJoint.o
-t1437725966
+t1437728376
 s116188
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2GearJoint.o
-t1437725967
+t1437728376
 s124808
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Island.o
-t1437725964
+t1437728376
 s125556
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Joint.o
-t1437725968
+t1437728376
 s123844
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Math.o
-t1437725962
+t1437728376
 s77136
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2MouseJoint.o
-t1437725968
+t1437728376
 s115048
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2PolygonAndCircleContact.o
-t1437725966
+t1437728376
 s94136
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2PolygonContact.o
-t1437725966
+t1437728376
 s93780
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2PolygonShape.o
-t1437725961
+t1437728376
 s103316
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2PrismaticJoint.o
-t1437725968
+t1437728376
 s137736
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2PulleyJoint.o
-t1437725968
+t1437728376
 s111288
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2RevoluteJoint.o
-t1437725968
+t1437728376
 s129572
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Rope.o
-t1437725969
+t1437728376
 s91404
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2RopeJoint.o
-t1437725968
+t1437728376
 s106956
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Settings.o
-t1437725963
+t1437728376
 s69316
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2StackAllocator.o
-t1437725963
+t1437728376
 s72848
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2TimeOfImpact.o
-t1437725961
+t1437728376
 s105380
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2Timer.o
-t1437725963
+t1437728376
 s69616
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2WeldJoint.o
-t1437725968
+t1437728376
 s117728
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2WheelJoint.o
-t1437725969
+t1437728376
 s117096
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2World.o
-t1437725964
+t1437728376
 s202212
 
 N/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2WorldCallbacks.o
-t1437725964
+t1437728376
 s84324
 
 N/var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch.pch
@@ -2332,6 +2347,9 @@ r0
 CBuild AST from /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp
 r0
 
+CBuild AST from /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Help.cpp
+r0
+
 CBuild AST from /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp
 r0
 
@@ -2343,11 +2361,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4278105c3562bb41^8ae6115c3562bb41^---0#1#1#--18"Check dependencies36"C6AD8623-3461-4D08-898A-5E4DC38A4E17-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4c1918b13b62bb41^0d6d18b13b62bb41^---0#1#1#--18"Check dependencies36"79169A6F-CB81-456E-A212-EC2AF63BB7B1-
 
 CCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s459418761.702693
-e459418763.186754
+s459422619.802016
+e459422621.088346
 r1
 xCompileC
 x./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.o
@@ -2359,8 +2377,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/AGCubus.h
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/SuperCreature.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp220"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler4703b4892c62bb41^1ccf2f8b2c62bb41^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp0000000000000000^3651"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-generated-files.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-own-target-headers.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-all-target-headers.hmap -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-project-headers.hmap -iquote../../../../../../../Applications/cinder_0.8.6_mac/include -iquote../include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/include -I../../../../../../../Applications/cinder_0.8.6_mac/boost -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources/x86_64 -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -include /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch -MMD -MT dependencies -MF /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.d --serialize-diagnostics /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.dia -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.o36"6D749474-58D7-403B-BAC4-9667E9E99F70-
-b82973364-F134-41CF-ACB2-8F1FCF3DFC5A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp220"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler276acd9b3b62bb41^e99d169d3b62bb41^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp0000000000000000^3651"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-generated-files.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-own-target-headers.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-all-target-headers.hmap -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-project-headers.hmap -iquote../../../../../../../Applications/cinder_0.8.6_mac/include -iquote../include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/include -I../../../../../../../Applications/cinder_0.8.6_mac/boost -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources/x86_64 -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -include /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch -MMD -MT dependencies -MF /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.d --serialize-diagnostics /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.dia -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/AGCubus.cpp -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/AGCubus.o36"71BFF179-D1BB-417A-B4BD-3B4BA623DE94-
+b49F791B0-4710-4790-9DD4-A39DA5921AEA
 
 CCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Cairo.o /Applications/cinder_0.8.6_mac/blocks/Cairo/src/Cairo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s459418768.092371
@@ -2539,8 +2557,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile
 b5944B80B-BD40-4109-AEC5-E4CB1245A8B1
 
 CCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s459418762.587720
-e459418764.312036
+s459422619.802022
+e459422621.280469
 r1
 xCompileC
 x./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.o
@@ -2554,8 +2572,25 @@ d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/CreatureManag
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/TACreatureExample.h
 d/Applications/cinder_0.8.6_mac/include/cinder/Rand.h
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/SuperCreature.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp236"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compileree94968a2c62bb41^cae14f8c2c62bb41^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp0000000000000000^3699"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-generated-files.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-own-target-headers.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-all-target-headers.hmap -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-project-headers.hmap -iquote../../../../../../../Applications/cinder_0.8.6_mac/include -iquote../include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/include -I../../../../../../../Applications/cinder_0.8.6_mac/boost -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources/x86_64 -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -include /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch -MMD -MT dependencies -MF /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.d --serialize-diagnostics /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.dia -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.o36"AA45F461-47D7-45BB-BF45-174158A363AC-
-b82973364-F134-41CF-ACB2-8F1FCF3DFC5A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp236"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler766bcd9b3b62bb41^79cd479d3b62bb41^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp0000000000000000^3699"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-generated-files.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-own-target-headers.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-all-target-headers.hmap -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-project-headers.hmap -iquote../../../../../../../Applications/cinder_0.8.6_mac/include -iquote../include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/include -I../../../../../../../Applications/cinder_0.8.6_mac/boost -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources/x86_64 -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -include /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch -MMD -MT dependencies -MF /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.d --serialize-diagnostics /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.dia -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/CreatureManager.cpp -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/CreatureManager.o36"F5BCB1D2-ED9C-4853-AFF7-0B52FB2B6D8B-
+b49F791B0-4710-4790-9DD4-A39DA5921AEA
+
+CCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Help.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Help.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459422641.100138
+e459422642.305213
+r1
+xCompileC
+x./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Help.o
+x/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Help.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Help.cpp
+d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/Help.h
+d/Applications/cinder_0.8.6_mac/include/cinder/params/Params.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Help.cpp214"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Help.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Help.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler06bb19b13b62bb41^c4224eb23b62bb41^---0#0#1#-19%DVTDocumentLocation2@86"file://localhost/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Help.cpp0000000000000000^3633"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Help.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Help.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-generated-files.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-own-target-headers.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-all-target-headers.hmap -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-project-headers.hmap -iquote../../../../../../../Applications/cinder_0.8.6_mac/include -iquote../include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/include -I../../../../../../../Applications/cinder_0.8.6_mac/boost -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources/x86_64 -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -include /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch -MMD -MT dependencies -MF /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Help.d --serialize-diagnostics /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Help.dia -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/Help.cpp -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Help.o36"F993D2A9-2BA9-4BE3-ABE2-8E57EB6057BC-
+b94BF99C2-3B09-44EE-9545-CEC53A0210F2
 
 CCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/IpEndpointName.o /Applications/cinder_0.8.6_mac/blocks/OSC/src/ip/IpEndpointName.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s459418768.339026
@@ -2880,8 +2915,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile
 b82973364-F134-41CF-ACB2-8F1FCF3DFC5A
 
 CCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s459418761.683135
-e459418763.187368
+s459422619.802016
+e459422621.097492
 r1
 xCompileC
 x./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.o
@@ -2892,12 +2927,12 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/SuperCreature.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp232"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilera4faae892c62bb41^cafc2f8b2c62bb41^---0#0#1#-19%DVTDocumentLocation2@95"file://localhost/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp0000000000000000^3687"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-generated-files.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-own-target-headers.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-all-target-headers.hmap -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-project-headers.hmap -iquote../../../../../../../Applications/cinder_0.8.6_mac/include -iquote../include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/include -I../../../../../../../Applications/cinder_0.8.6_mac/boost -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources/x86_64 -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -include /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch -MMD -MT dependencies -MF /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.d --serialize-diagnostics /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.dia -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.o36"835FB66A-7012-458B-92BB-4188594F643C-
-b82973364-F134-41CF-ACB2-8F1FCF3DFC5A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp232"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler166acd9b3b62bb41^5ef5189d3b62bb41^---0#0#1#-19%DVTDocumentLocation2@95"file://localhost/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp0000000000000000^3687"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-generated-files.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-own-target-headers.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-all-target-headers.hmap -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-project-headers.hmap -iquote../../../../../../../Applications/cinder_0.8.6_mac/include -iquote../include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/include -I../../../../../../../Applications/cinder_0.8.6_mac/boost -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources/x86_64 -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -include /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch -MMD -MT dependencies -MF /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.d --serialize-diagnostics /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.dia -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/SuperCreature.cpp -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/SuperCreature.o36"78BFF53F-7C5C-4C4C-9012-745E0C7E9C1D-
+b49F791B0-4710-4790-9DD4-A39DA5921AEA
 
 CCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s459418770.252195
-e459418771.999205
+s459422619.817092
+e459422621.251652
 r1
 xCompileC
 x./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.o
@@ -2910,12 +2945,12 @@ d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/TACreatureExample.h
 d/Applications/cinder_0.8.6_mac/include/cinder/Rand.h
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/SuperCreature.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample.cpp240"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler92b340922c62bb41^5cccff932c62bb41^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample.cpp0000000000000000^3711"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-generated-files.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-own-target-headers.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-all-target-headers.hmap -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-project-headers.hmap -iquote../../../../../../../Applications/cinder_0.8.6_mac/include -iquote../include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/include -I../../../../../../../Applications/cinder_0.8.6_mac/boost -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources/x86_64 -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -include /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch -MMD -MT dependencies -MF /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.d --serialize-diagnostics /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.dia -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample.cpp -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.o36"7DDD23D5-88DB-49F9-AB68-2D7182154FE9-
-b82973364-F134-41CF-ACB2-8F1FCF3DFC5A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample.cpp240"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd53ed19b3b62bb41^876c409d3b62bb41^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample.cpp0000000000000000^3711"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-generated-files.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-own-target-headers.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-all-target-headers.hmap -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-project-headers.hmap -iquote../../../../../../../Applications/cinder_0.8.6_mac/include -iquote../include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/include -I../../../../../../../Applications/cinder_0.8.6_mac/boost -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources/x86_64 -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -include /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch -MMD -MT dependencies -MF /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.d --serialize-diagnostics /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.dia -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TACreatureExample.cpp -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TACreatureExample.o36"58A0878D-6FED-4FE3-BEA7-F5FBAE3752DD-
+b49F791B0-4710-4790-9DD4-A39DA5921AEA
 
 CCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s459421020.070332
-e459421021.459392
+s459422641.100129
+e459422642.487298
 r1
 xCompileC
 x./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o
@@ -2926,15 +2961,16 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp
 d/Applications/cinder_0.8.6_mac/include/cinder/app/AppNative.h
-d/Applications/cinder_0.8.6_mac/include/cinder/params/Params.h
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/Cam.h
 d/Applications/cinder_0.8.6_mac/include/cinder/Camera.h
+d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/Help.h
+d/Applications/cinder_0.8.6_mac/include/cinder/params/Params.h
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/CreatureManager.h
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/TACreatureExample.h
 d/Applications/cinder_0.8.6_mac/include/cinder/Rand.h
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/include/SuperCreature.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp228"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf513125c3562bb41^1b9b755d3562bb41^---0#0#1#-19%DVTDocumentLocation2@93"file://localhost/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp0000000000000000^3675"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-generated-files.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-own-target-headers.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-all-target-headers.hmap -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-project-headers.hmap -iquote../../../../../../../Applications/cinder_0.8.6_mac/include -iquote../include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/include -I../../../../../../../Applications/cinder_0.8.6_mac/boost -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources/x86_64 -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -include /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch -MMD -MT dependencies -MF /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.d --serialize-diagnostics /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.dia -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o36"B27A79EF-477D-4AB2-9728-02BCF6B39345-
-b5944B80B-BD40-4109-AEC5-E4CB1245A8B1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp228"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd4ba19b13b62bb41^b9c17cb23b62bb41^---0#0#1#-19%DVTDocumentLocation2@93"file://localhost/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp0000000000000000^3675"CompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-generated-files.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-own-target-headers.hmap -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-all-target-headers.hmap -iquote /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/TheAbyss-project-headers.hmap -iquote../../../../../../../Applications/cinder_0.8.6_mac/include -iquote../include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src -iquote../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/include -I../../../../../../../Applications/cinder_0.8.6_mac/boost -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src -I../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources/x86_64 -I/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/DerivedSources -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -include /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TheAbyss_Prefix-gsdqgcszknxgscdsvhlwgrbewgam/TheAbyss_Prefix.pch -MMD -MT dependencies -MF /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.d --serialize-diagnostics /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.dia -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/src/TheAbyssApp.cpp -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o36"8AB82C3A-3D00-459B-80AB-8EAC6C402708-
+b94BF99C2-3B09-44EE-9545-CEC53A0210F2
 
 CCompileC ./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/UdpSocket.o /Applications/cinder_0.8.6_mac/blocks/OSC/src/ip/posix/UdpSocket.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s459418770.953930
@@ -4126,8 +4162,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy bu
 b82973364-F134-41CF-ACB2-8F1FCF3DFC5A
 
 CLd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app/Contents/MacOS/TheAbyss normal x86_64
-s459421021.471977
-e459421021.793881
+s459422642.498301
+e459422642.822750
 r1
 xLd
 x/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app/Contents/MacOS/TheAbyss
@@ -4136,6 +4172,7 @@ xx86_64
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyss.LinkFileList
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyssApp.o
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2BroadPhase.o
+d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/Help.o
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2CollideCircle.o
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2CollideEdge.o
 d/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/b2CollidePolygon.o
@@ -4212,13 +4249,11 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libc++.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/vecLib.framework/vecLib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -4243,11 +4278,13 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreData.framework/CoreData
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
@@ -4270,8 +4307,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
 old: warning: ignoring file /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime, file was built for i386 which is not the architecture being linked (x86_64): /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app/Contents/MacOS/TheAbyss67"Ld ./build/Debug/TheAbyss.app/Contents/MacOS/TheAbyss normal x86_64d6e1785d3562bb41^fb3bcb5d3562bb41^-417"ld: warning: ignoring file /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime, file was built for i386 which is not the architecture being linked (x86_64): /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime1(21%IDEActivityLogMessage2@403"Ignoring file /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime, file was built for i386 which is not the architecture being linked (x86_64): /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime-459421021#0#417#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#1#--1596"Ld ./build/Debug/TheAbyss.app/Contents/MacOS/TheAbyss normal x86_64    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -filelist /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyss.LinkFileList -mmacosx-version-min=10.8 -dead_strip ../../../../../../../Applications/cinder_0.8.6_mac/lib/libcinder_d.a ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/lib/macosx/libcairo.a ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/lib/macosx/libpixman-1.a ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/lib/macosx/libpng16.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -framework QuickTime -Xlinker -dependency_info -Xlinker /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyss_dependency_info.dat -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app/Contents/MacOS/TheAbyss36"A2F52CEC-3057-44D2-AC80-A6A69705E40A-
-b5944B80B-BD40-4109-AEC5-E4CB1245A8B1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app/Contents/MacOS/TheAbyss67"Ld ./build/Debug/TheAbyss.app/Contents/MacOS/TheAbyss normal x86_64ba9f7fb23b62bb41^38a3d2b23b62bb41^-417"ld: warning: ignoring file /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime, file was built for i386 which is not the architecture being linked (x86_64): /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime1(21%IDEActivityLogMessage2@403"Ignoring file /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime, file was built for i386 which is not the architecture being linked (x86_64): /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime-459422642#0#417#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#1#--1596"Ld ./build/Debug/TheAbyss.app/Contents/MacOS/TheAbyss normal x86_64    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -F/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug -filelist /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyss.LinkFileList -mmacosx-version-min=10.8 -dead_strip ../../../../../../../Applications/cinder_0.8.6_mac/lib/libcinder_d.a ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/lib/macosx/libcairo.a ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/lib/macosx/libpixman-1.a ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/lib/macosx/libpng16.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -framework QuickTime -Xlinker -dependency_info -Xlinker /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/TheAbyss.build/Debug/TheAbyss.build/Objects-normal/x86_64/TheAbyss_dependency_info.dat -o /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app/Contents/MacOS/TheAbyss36"1E8B1827-B41F-48DF-8122-B01011A70063-
+b94BF99C2-3B09-44EE-9545-CEC53A0210F2
 
 CProcessInfoPlistFile /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/build/Debug/TheAbyss.app/Contents/Info.plist /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/Info.plist
 s459418758.329877
@@ -4290,11 +4327,11 @@ CProcessPCH++ /var/folders/bq/xy6qwhxd411c_nzc735072nr0000gn/C/com.apple.Develop
 r0
 
 CTouch /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app
-s459421021.802233
-e459421021.807109
+s459422642.843845
+e459422642.848597
 r1
 xTouch
 x/Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app32"Touch ./build/Debug/TheAbyss.app5e69cd5d3562bb41^5a9fce5d3562bb41^---0#0#1#--217"Touch ./build/Debug/TheAbyss.app    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    /usr/bin/touch -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app36"4E4F0CF1-4069-490F-A8C4-50F4866003FE-
-b5944B80B-BD40-4109-AEC5-E4CB1245A8B1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app32"Touch ./build/Debug/TheAbyss.app4110d8b23b62bb41^813ed9b23b62bb41^---0#0#1#--217"Touch ./build/Debug/TheAbyss.app    cd /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode    /usr/bin/touch -c /Users/tiago/PinhoRepos/EshoFuni/TheAbyss_Cinder/TheAbyss/xcode/./build/Debug/TheAbyss.app36"02D0EAAE-D0DE-4080-95FA-A5D6866FFB13-
+b94BF99C2-3B09-44EE-9545-CEC53A0210F2
 

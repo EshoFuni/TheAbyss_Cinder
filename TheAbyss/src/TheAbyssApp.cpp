@@ -1,8 +1,8 @@
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
-#include "cinder/params/Params.h"
 
 #include "Cam.h"
+#include "Help.h"
 #include "CreatureManager.h"
 #include "TACreatureExample.h"
 
@@ -19,11 +19,8 @@ class TheAbyssApp : public AppNative {
     void keyDown(KeyEvent event);
     
     Cam mCam;
-       
-    // UI PARAMETERS VARIABLES
-    params::InterfaceGlRef mParams; // parameters member variable
-    Quatf mSceneRotation; // scene rotation variable
-    bool drawParam = false;
+    Help mHelp;
+    
     
     // MANAGER DECLARATION
     CreatureManager manager;
@@ -40,12 +37,13 @@ void TheAbyssApp::prepareSettings(Settings *settings){
 
 void TheAbyssApp::setup()
 {
+    // INSTATIATE AND INIT CAMERA
     mCam = *new Cam();
     mCam.init();
     
-    // INSTANTIATE UI PARAMETERS
-    mParams = params::InterfaceGl::create("TheAbyss Parameters", Vec2i(225, 200) ); // (title, size, color)
-    mParams->addParam("Scene Rotation", &mSceneRotation); // ("parameter name", target)
+    //INSTANTIATE AND INIT HELP
+    mHelp = *new Help();
+    mHelp.init();
     
     // INSTANTIATE MANAGER
     manager = *new CreatureManager();
@@ -62,24 +60,20 @@ void TheAbyssApp::draw()
 	// CLEAR BACKGROUND
 	gl::clear( Color( 0, 0, 0 ) );
     
-    //SET CAMERA
+    // SET CAMERA
     mCam.setCam();
-    
-    // SHOW UI PARAMETERS
-    if (drawParam == true){
-        mParams->draw();
-    }
-    gl::rotate(mSceneRotation);
-
+    // DRAW HELP
+    mHelp.draw();
     
     // CREATURE DRAW
     manager.draw();
 }
 
+// KEYBOARD SHORTCUTS
 void TheAbyssApp::keyDown(KeyEvent event){
     // press 'h' to see the parameter UI
     if ( event.getChar() == 'h'){
-        drawParam = !drawParam;
+        mHelp.showHelp = !mHelp.showHelp;
     }
     if (event.getChar() == '+') {
         manager.addCreature();
