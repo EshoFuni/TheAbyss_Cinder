@@ -1,5 +1,5 @@
-TheAbyss/xcode/DerivedData/
-TheAbyss/xcode/buid
+TheAbyss/xcode/DerivedData/**
+TheAbyss/xcode/buid/**
 .DS_Store
 
 
