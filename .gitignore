@@ -5,7 +5,7 @@ TheAbyss/xcode/build/**
 *.mode2v3
 *.user
 project.xcworkspace
-xcuserdata/
+xcuserdata/**
 *.xccheckout
 .xcuserstate
 .DS_Store
