@@ -29,13 +29,22 @@ void CreatureManager::draw(){
     }
 }
 
+// add creature to the end of mCreatures list
 void CreatureManager::addCreature(){
     mCreatures.push_back(TACreatureExample());
 }
 
+// remove creature at the end of mCreatures list
 void CreatureManager::removeCreature(){
     if (mCreatures.size() !=  0){ // prevent crash when popping back from an empty list
         mCreatures.pop_back();
     }
     
+}
+
+// scan classes extended by SuperCreature
+list<SuperCreature> scanClasses(){
+    std::list<SuperCreature> mClasses;
+
+    return mClasses;
 }

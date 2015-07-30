@@ -13,7 +13,7 @@
 #include <list>
 
 #include "TACreatureExample.h"
-//#include "SuperCreature.h"
+#include "SuperCreature.h"
 
 using namespace ci;
 
@@ -22,10 +22,16 @@ public:
     CreatureManager();
     void update();
     void draw();
+
     void addCreature();
     void removeCreature();
-
+    
     std::list<TACreatureExample> mCreatures;
+
+
+private:
+    std::list<SuperCreature> scanClasses();
+    
 };
 
 #endif /* defined(__TheAbyss__CreatureManager__) */
