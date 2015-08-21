@@ -1,10 +1,17 @@
+//
+//  Created by Tiago Ângelo on 7/24/15,
+//  added Horácio Tomé-Marques on 7/24/15,
+//  and João Menezes one of these days!;–}.
+//
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 
 #include "Cam.h"
-#include "Help.h"
+#include "AbyssGUI.h"
 #include "CreatureManager.h"
 #include "TACreatureExample.h"
+#include "HTMPreGelly.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -19,7 +26,7 @@ class TheAbyssApp : public AppNative {
     void keyDown(KeyEvent event);
     
     Cam mCam;
-    Help mHelp;
+    AbyssGUI mAbyssGUI;
     
     
     // MANAGER DECLARATION
@@ -27,23 +34,30 @@ class TheAbyssApp : public AppNative {
     
     // CREATURE DECLARATION
     TACreatureExample theCreature;
+    
+    // CREATURE DECLARATION
+    HTMPreGelly theCreature1;
 };
 
 void TheAbyssApp::prepareSettings(Settings *settings){
     
     settings->setWindowSize(640, 480);
     settings->setFrameRate(60.0f);
+    settings->setTitle("TheAbyss"); // added the naming (menu feedback)
+
 }
 
 void TheAbyssApp::setup()
 {
+    // WINDOW NAMING
+    ci::app::getWindow()->setTitle("TheAbyss"); // added
     // INSTATIATE AND INIT CAMERA
     mCam = *new Cam();
     mCam.init();
     
-    //INSTANTIATE AND INIT HELP
-    mHelp = *new Help();
-    mHelp.init();
+    //INSTANTIATE AND INIT ABYSSGUI
+    mAbyssGUI = *new AbyssGUI();
+    mAbyssGUI.init();
     
     // INSTANTIATE MANAGER
     manager = *new CreatureManager();
@@ -59,11 +73,12 @@ void TheAbyssApp::draw()
 {
 	// CLEAR BACKGROUND
 	gl::clear( Color( 0, 0, 0 ) );
+    gl::enableAlphaBlending();
     
     // SET CAMERA
     mCam.setCam();
-    // DRAW HELP
-    mHelp.draw();
+    // DRAW ABYSSGUI
+    mAbyssGUI.draw();
     
     // CREATURE DRAW
     manager.draw();
@@ -73,7 +88,7 @@ void TheAbyssApp::draw()
 void TheAbyssApp::keyDown(KeyEvent event){
     // press 'h' to see the parameter UI
     if ( event.getChar() == 'h'){
-        mHelp.showHelp = !mHelp.showHelp;
+        mAbyssGUI.showAbyssGUI = !mAbyssGUI.showAbyssGUI;
     }
     if (event.getChar() == '+') {
         manager.addCreature();
