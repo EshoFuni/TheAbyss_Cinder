@@ -19,6 +19,7 @@
 		09CDC9C51F8248349EBA8A77 /* b2Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97957B6FD1748B196331719 /* b2Collision.cpp */; };
 		0C13FF9D631841B6B5B4EF7C /* b2PulleyJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 401C86FF5928433C97E33D68 /* b2PulleyJoint.cpp */; };
 		0E7CF1D6219944F48520A19D /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 522EFFC0E2F343A480616627 /* b2Rope.cpp */; };
+		10283C931B779B6D00331369 /* HTMPreGelly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10283C911B779B6D00331369 /* HTMPreGelly.cpp */; };
 		196FF14DF5B34FC68E8FFB2E /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEE391DD0FE4801A872A844 /* b2CollideEdge.cpp */; };
 		1E0B911D43F349A285A1FC03 /* b2CircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 611302CEFFAE43F69BD8A3C4 /* b2CircleContact.cpp */; };
 		1F29F71ED3CB40EF8F20BDAE /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 948D21D7222B4AD7A3F9EDD9 /* b2RevoluteJoint.cpp */; };
@@ -75,7 +76,7 @@
 		F13BC17F1B6227DC007F364C /* CreatureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17B1B6227DC007F364C /* CreatureManager.cpp */; };
 		F13BC1801B6227DC007F364C /* SuperCreature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17C1B6227DC007F364C /* SuperCreature.cpp */; };
 		F13BC1811B6227DC007F364C /* TACreatureExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17D1B6227DC007F364C /* TACreatureExample.cpp */; };
-		F153C9C11B62372000395265 /* Help.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F153C9BF1B62372000395265 /* Help.cpp */; };
+		F153C9C11B62372000395265 /* AbyssGUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F153C9BF1B62372000395265 /* AbyssGUI.cpp */; };
 		F26771AE5D5D45A394AAF51C /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CB35B373C6749CE891E1748 /* OscListener.cpp */; };
 		F841E80B67DD440083C0FD04 /* b2GearJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7F313CD084CD0867CEBD8 /* b2GearJoint.cpp */; };
 		FAA53E9E152343F7B13BABE9 /* b2PolygonAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7D63BEBAC484DA48832765F /* b2PolygonAndCircleContact.cpp */; };
@@ -93,6 +94,8 @@
 		075F797E17174547BAB5B35F /* b2MouseJoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = b2MouseJoint.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2MouseJoint.cpp; sourceTree = "<group>"; };
 		092086B643D14F43BB7F1A5A /* b2Fixture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2Fixture.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/b2Fixture.h; sourceTree = "<group>"; };
 		0FBB19BC89004204B5E3CC52 /* b2EdgeAndPolygonContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2EdgeAndPolygonContact.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h; sourceTree = "<group>"; };
+		10283C911B779B6D00331369 /* HTMPreGelly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HTMPreGelly.cpp; path = ../src/HTMPreGelly.cpp; sourceTree = "<group>"; };
+		10283C921B779B6D00331369 /* HTMPreGelly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMPreGelly.h; path = ../include/HTMPreGelly.h; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		11966EB704484CFCA5DB35F7 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscOutboundPacketStream.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src/osc/OscOutboundPacketStream.h; sourceTree = "<group>"; };
 		1215DFF1CAE14B85AA374136 /* b2PolygonAndCircleContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2PolygonAndCircleContact.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h; sourceTree = "<group>"; };
@@ -223,8 +226,8 @@
 		F13BC1831B6227F2007F364C /* CreatureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreatureManager.h; path = ../include/CreatureManager.h; sourceTree = "<group>"; };
 		F13BC1841B6227F2007F364C /* SuperCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperCreature.h; path = ../include/SuperCreature.h; sourceTree = "<group>"; };
 		F13BC1851B6227F2007F364C /* TACreatureExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TACreatureExample.h; path = ../include/TACreatureExample.h; sourceTree = "<group>"; };
-		F153C9BF1B62372000395265 /* Help.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Help.cpp; path = ../src/Help.cpp; sourceTree = "<group>"; };
-		F153C9C01B62372000395265 /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Help.h; path = ../include/Help.h; sourceTree = "<group>"; };
+		F153C9BF1B62372000395265 /* AbyssGUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AbyssGUI.cpp; path = ../src/AbyssGUI.cpp; sourceTree = "<group>"; };
+		F153C9C01B62372000395265 /* AbyssGUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbyssGUI.h; path = ../include/AbyssGUI.h; sourceTree = "<group>"; };
 		F37B0DBACA8346BFBB046517 /* b2ChainShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = b2ChainShape.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp; sourceTree = "<group>"; };
 		F4C110B13A814FC68E3D1CFF /* b2EdgeAndCircleContact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = b2EdgeAndCircleContact.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp; sourceTree = "<group>"; };
 		F500390C159042E0A9DCCCBC /* b2CircleContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2CircleContact.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.h; sourceTree = "<group>"; };
@@ -327,11 +330,12 @@
 			children = (
 				A2FB986A37D3411891557C20 /* TheAbyssApp.cpp */,
 				F1278C311B622EE700EADA30 /* Cam.cpp */,
-				F153C9BF1B62372000395265 /* Help.cpp */,
+				F153C9BF1B62372000395265 /* AbyssGUI.cpp */,
 				F13BC17B1B6227DC007F364C /* CreatureManager.cpp */,
 				F13BC17C1B6227DC007F364C /* SuperCreature.cpp */,
 				F13BC17D1B6227DC007F364C /* TACreatureExample.cpp */,
 				F13BC17A1B6227DC007F364C /* AGCubus.cpp */,
+				10283C911B779B6D00331369 /* HTMPreGelly.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -415,9 +419,10 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				10283C921B779B6D00331369 /* HTMPreGelly.h */,
 				E92703AFC47741019CC48908 /* TheAbyss_Prefix.pch */,
 				F1278C321B622EE700EADA30 /* Cam.h */,
-				F153C9C01B62372000395265 /* Help.h */,
+				F153C9C01B62372000395265 /* AbyssGUI.h */,
 				F13BC1831B6227F2007F364C /* CreatureManager.h */,
 				F13BC1841B6227F2007F364C /* SuperCreature.h */,
 				F13BC1851B6227F2007F364C /* TACreatureExample.h */,
@@ -705,10 +710,11 @@
 			files = (
 				0086D8E80A9E4617976526FB /* TheAbyssApp.cpp in Sources */,
 				41CF6D06C3BF4414B321B3A1 /* b2BroadPhase.cpp in Sources */,
-				F153C9C11B62372000395265 /* Help.cpp in Sources */,
+				F153C9C11B62372000395265 /* AbyssGUI.cpp in Sources */,
 				B3FC511BB647496093188379 /* b2CollideCircle.cpp in Sources */,
 				196FF14DF5B34FC68E8FFB2E /* b2CollideEdge.cpp in Sources */,
 				26E3A3BCBB84480FAE532BEB /* b2CollidePolygon.cpp in Sources */,
+				10283C931B779B6D00331369 /* HTMPreGelly.cpp in Sources */,
 				09CDC9C51F8248349EBA8A77 /* b2Collision.cpp in Sources */,
 				A54913E60F7B484E94FEAE3E /* b2Distance.cpp in Sources */,
 				A71A561C17C04EC69A2111F0 /* b2DynamicTree.cpp in Sources */,
