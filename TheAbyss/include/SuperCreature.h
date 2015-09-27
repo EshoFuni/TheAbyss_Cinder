@@ -18,8 +18,8 @@ class SuperCreature {
 public:
     
     
-    SuperCreature();
-    virtual ~SuperCreature(){};
+    SuperCreature(); // constructor
+    virtual ~SuperCreature(){}; // virtual destructor
     
     virtual void move(){};
     virtual void draw(){};

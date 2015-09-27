@@ -21,10 +21,10 @@ class AGCubus: public SuperCreature{
 public:
     
     AGCubus(); // constructor
-    AGCubus(bool dummy); // dummy variable
+    //AGCubus(bool dummy); // dummy variable
     // METHOD DECLARATION
-    void move();
-    void draw();
+    virtual void move();
+    virtual void draw();
     
     
     // VARIABLE DECLARATION

@@ -23,8 +23,8 @@ public:
     TACreatureExample(); // constructor
     TACreatureExample(bool dummy); // dummy variable
     // METHOD DECLARATION
-    void move();
-    void draw();
+    virtual void move();
+    virtual void draw();
     
     
     // VARIABLE DECLARATION

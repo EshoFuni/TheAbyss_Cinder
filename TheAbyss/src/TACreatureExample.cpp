@@ -40,6 +40,6 @@ void TACreatureExample::draw(){
     //gl::drawCube(mPos, mSize);
     //gl::drawColorCube(mPos, mSize);
     
-//    gl::drawSphere(pos, sca.x, 64);
-    gl::drawStrokedCube(pos, sca);
+    gl::drawSphere(pos, sca.x, 64);
+    //gl::drawStrokedCube(pos, sca);
 }

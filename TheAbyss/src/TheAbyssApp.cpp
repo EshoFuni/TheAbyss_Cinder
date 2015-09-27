@@ -76,10 +76,10 @@ void TheAbyssApp::keyDown(KeyEvent event){
         mHelp.showHelp = !mHelp.showHelp;
     }
     if (event.getChar() == '+') {
-        manager.addCreature();
+        manager.addRandomCreature();
     }
     if (event.getChar() == '-'){
-        manager.removeCreature();
+        manager.removeLastCreature();
     }
 }
 

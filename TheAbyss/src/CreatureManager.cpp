@@ -14,37 +14,51 @@ using std::list;
 
 CreatureManager::CreatureManager(){
     // INIT UI PARAMETERS VARIABLES
-
+    mClasses = {"TACreatureExample", "AGCubus"};
 }
 
 void CreatureManager::update(){
-    for(list<TACreatureExample>::iterator p = mCreatures.begin(); p != mCreatures.end(); p++ ){
-        p->move();
+//    for(vector<SuperCreature*>::iterator p = mCreatures.begin(); p != mCreatures.end(); p++ ){
+//        p->move();
+//    }
+    for(int i = 0; i<mCreatures.size(); i++){
+        mCreatures[i]->move();
     }
 }
 
 void CreatureManager::draw(){
-    for (list<TACreatureExample>::iterator p = mCreatures.begin(); p != mCreatures.end(); p++) {
-        p->draw();
+//    for (vector<SuperCreature*>::iterator p = mCreatures.begin(); p != mCreatures.end(); p++) {
+//        p->draw();
+//    }
+    for(int i = 0; i<mCreatures.size(); i++){
+        mCreatures[i]->draw();
+    }
+
+}
+
+
+// add random creature
+void CreatureManager::addRandomCreature(){
+    int creature = randInt( mClasses.size() );
+    
+    switch (creature) {
+        case 0:
+            mCreatures.push_back( new TACreatureExample() );
+            break;
+            
+        case 1:
+            mCreatures.push_back( new AGCubus() );
+        default:
+            break;
     }
 }
 
-// add creature to the end of mCreatures list
-void CreatureManager::addCreature(){
-    mCreatures.push_back(TACreatureExample());
-}
-
 // remove creature at the end of mCreatures list
-void CreatureManager::removeCreature(){
+void CreatureManager::removeLastCreature(){
     if (mCreatures.size() !=  0){ // prevent crash when popping back from an empty list
         mCreatures.pop_back();
     }
     
 }
 
-// scan classes extended by SuperCreature
-list<SuperCreature> scanClasses(){
-    std::list<SuperCreature> mClasses;
 
-    return mClasses;
-}

@@ -7,5 +7,10 @@ Cinder version of TheAbyss based on Andreas Gysin' TheAbyss for Processing, deve
 
 # Keyboard Shortcuts
 'h' : shows the parameter window 
-'+' : add creature
-'-' : remove creature
+'+' : adds random creature
+'-' : removes last creature added 
+
+# Change Log
+
+27.09.2015
+implemented polymorphism (currently working with only two derived supercreatures: TACreatureExample and AGCubus), see instructions for adding creatures in the wiki

@@ -10,9 +10,11 @@
 #define __TheAbyss__CreatureManager__
 
 #pragma once
-#include <list>
+#include <vector>
+#include "cinder/Rand.h"
 
 #include "TACreatureExample.h"
+#include "AGCubus.h"
 #include "SuperCreature.h"
 
 using namespace ci;
@@ -23,14 +25,14 @@ public:
     void update();
     void draw();
 
-    void addCreature();
-    void removeCreature();
+    void addRandomCreature();
+    void removeLastCreature();
     
-    std::list<TACreatureExample> mCreatures;
-
+    std::vector<SuperCreature*> mCreatures; // creature container
+    std::list<string> mClasses; //list of all creature classes
+    
 
 private:
-    std::list<SuperCreature> scanClasses();
     
 };
 
