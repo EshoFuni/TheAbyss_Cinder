@@ -21,15 +21,12 @@ class AGCubus: public SuperCreature{
 public:
     
     AGCubus(); // constructor
-    //AGCubus(bool dummy); // dummy variable
-    // METHOD DECLARATION
     virtual void move();
     virtual void draw();
     
     
     // VARIABLE DECLARATION
     Vec3f mThresh; // position threshold to change direction
-    //bool dummy;
 };
 
 #endif /* defined(__TheAbyss__AGCubus__) */

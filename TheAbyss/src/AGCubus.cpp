@@ -36,7 +36,5 @@ void AGCubus::move(){
 }
 
 void AGCubus::draw(){
-    //gl::drawCube(mPos, mSize);
-    //gl::drawColorCube(mPos, mSize);
     gl::drawStrokedCube(pos, sca);
 }

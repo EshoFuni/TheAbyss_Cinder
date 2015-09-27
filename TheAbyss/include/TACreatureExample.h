@@ -21,7 +21,6 @@ class TACreatureExample: public SuperCreature{
 public:
     
     TACreatureExample(); // constructor
-    TACreatureExample(bool dummy); // dummy variable
     // METHOD DECLARATION
     virtual void move();
     virtual void draw();
@@ -29,7 +28,6 @@ public:
     
     // VARIABLE DECLARATION
     Vec3f mThresh; // position threshold to change direction
-    //bool dummy;
 };
 
 #endif /* defined(__TheAbyss__TACretureExample__) */

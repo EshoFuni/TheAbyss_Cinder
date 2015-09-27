@@ -48,6 +48,11 @@ void CreatureManager::addRandomCreature(){
             
         case 1:
             mCreatures.push_back( new AGCubus() );
+            break;
+        case 2:
+            mCreatures.push_back( new YourCreatureName() );
+            break;
+
         default:
             break;
     }
