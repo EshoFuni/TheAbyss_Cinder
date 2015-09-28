@@ -25,3 +25,4 @@ void SuperCreature::applyTransforms(){
         gl::rotate(rot);
         gl::scale(sca);
 }
+

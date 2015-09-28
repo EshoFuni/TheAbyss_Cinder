@@ -9,16 +9,23 @@
 #ifndef __TheAbyss__AGCubus__
 #define __TheAbyss__AGCubus__
 
+
 #pragma once
 
 #include "SuperCreature.h"
 
+//using namespace ci;
 
 class AGCubus: public SuperCreature{
 public:
-    AGCubus();
-    void move();
-    void update();
+    
+    AGCubus(); // constructor
+    virtual void move();
+    virtual void draw();
+    
+    
+    // VARIABLE DECLARATION
+    Vec3f mThresh; // position threshold to change direction
 };
 
 #endif /* defined(__TheAbyss__AGCubus__) */

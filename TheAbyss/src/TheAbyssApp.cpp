@@ -10,8 +10,11 @@
 #include "Cam.h"
 #include "AbyssGUI.h"
 #include "CreatureManager.h"
+<<<<<<< HEAD
 #include "TACreatureExample.h"
 #include "HTMPreGelly.h"
+=======
+>>>>>>> Tiago_dev
 
 using namespace ci;
 using namespace ci::app;
@@ -51,6 +54,10 @@ void TheAbyssApp::setup()
 {
     // WINDOW NAMING
     ci::app::getWindow()->setTitle("TheAbyss"); // added
+<<<<<<< HEAD
+=======
+
+>>>>>>> Tiago_dev
     // INSTATIATE AND INIT CAMERA
     mCam = *new Cam();
     mCam.init();
@@ -91,10 +98,10 @@ void TheAbyssApp::keyDown(KeyEvent event){
         mAbyssGUI.showAbyssGUI = !mAbyssGUI.showAbyssGUI;
     }
     if (event.getChar() == '+') {
-        manager.addCreature();
+        manager.addRandomCreature();
     }
     if (event.getChar() == '-'){
-        manager.removeCreature();
+        manager.removeLastCreature();
     }
 }
 
