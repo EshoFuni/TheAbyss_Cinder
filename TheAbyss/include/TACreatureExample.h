@@ -13,7 +13,6 @@
 #pragma once
 
 #include "SuperCreature.h"
-#include "cinder/Rand.h"
 
 using namespace ci;
 

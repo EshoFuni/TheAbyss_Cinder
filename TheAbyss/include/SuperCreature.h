@@ -10,6 +10,7 @@
 #define __TheAbyss__SuperCreature__
 
 #pragma once
+#include "cinder/Rand.h"
 
 using namespace ci;
 using namespace std;

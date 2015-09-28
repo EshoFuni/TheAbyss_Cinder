@@ -16,6 +16,7 @@
 #include "TACreatureExample.h"
 #include "AGCubus.h"
 #include "SuperCreature.h"
+#include "HTMPreGelly.h"
 
 using namespace ci;
 

@@ -76,6 +76,8 @@
 		F13BC1801B6227DC007F364C /* SuperCreature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17C1B6227DC007F364C /* SuperCreature.cpp */; };
 		F13BC1811B6227DC007F364C /* TACreatureExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17D1B6227DC007F364C /* TACreatureExample.cpp */; };
 		F153C9C11B62372000395265 /* Help.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F153C9BF1B62372000395265 /* Help.cpp */; };
+		F1A04B221BB9E2E30030B32A /* AbyssGUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A04B211BB9E2E30030B32A /* AbyssGUI.cpp */; };
+		F1A04B251BB9E39F0030B32A /* HTMPreGelly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A04B241BB9E39F0030B32A /* HTMPreGelly.cpp */; };
 		F26771AE5D5D45A394AAF51C /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CB35B373C6749CE891E1748 /* OscListener.cpp */; };
 		F841E80B67DD440083C0FD04 /* b2GearJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7F313CD084CD0867CEBD8 /* b2GearJoint.cpp */; };
 		FAA53E9E152343F7B13BABE9 /* b2PolygonAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7D63BEBAC484DA48832765F /* b2PolygonAndCircleContact.cpp */; };
@@ -225,6 +227,10 @@
 		F13BC1851B6227F2007F364C /* TACreatureExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TACreatureExample.h; path = ../include/TACreatureExample.h; sourceTree = "<group>"; };
 		F153C9BF1B62372000395265 /* Help.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Help.cpp; path = ../src/Help.cpp; sourceTree = "<group>"; };
 		F153C9C01B62372000395265 /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Help.h; path = ../include/Help.h; sourceTree = "<group>"; };
+		F1A04B201BB9E2D10030B32A /* AbyssGUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbyssGUI.h; path = ../include/AbyssGUI.h; sourceTree = "<group>"; };
+		F1A04B211BB9E2E30030B32A /* AbyssGUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AbyssGUI.cpp; path = ../src/AbyssGUI.cpp; sourceTree = "<group>"; };
+		F1A04B231BB9E3900030B32A /* HTMPreGelly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMPreGelly.h; path = ../include/HTMPreGelly.h; sourceTree = "<group>"; };
+		F1A04B241BB9E39F0030B32A /* HTMPreGelly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HTMPreGelly.cpp; path = ../src/HTMPreGelly.cpp; sourceTree = "<group>"; };
 		F37B0DBACA8346BFBB046517 /* b2ChainShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = b2ChainShape.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp; sourceTree = "<group>"; };
 		F4C110B13A814FC68E3D1CFF /* b2EdgeAndCircleContact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = b2EdgeAndCircleContact.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp; sourceTree = "<group>"; };
 		F500390C159042E0A9DCCCBC /* b2CircleContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2CircleContact.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.h; sourceTree = "<group>"; };
@@ -325,6 +331,8 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F1A04B241BB9E39F0030B32A /* HTMPreGelly.cpp */,
+				F1A04B211BB9E2E30030B32A /* AbyssGUI.cpp */,
 				A2FB986A37D3411891557C20 /* TheAbyssApp.cpp */,
 				F1278C311B622EE700EADA30 /* Cam.cpp */,
 				F153C9BF1B62372000395265 /* Help.cpp */,
@@ -415,6 +423,8 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				F1A04B231BB9E3900030B32A /* HTMPreGelly.h */,
+				F1A04B201BB9E2D10030B32A /* AbyssGUI.h */,
 				E92703AFC47741019CC48908 /* TheAbyss_Prefix.pch */,
 				F1278C321B622EE700EADA30 /* Cam.h */,
 				F153C9C01B62372000395265 /* Help.h */,
@@ -709,6 +719,7 @@
 				B3FC511BB647496093188379 /* b2CollideCircle.cpp in Sources */,
 				196FF14DF5B34FC68E8FFB2E /* b2CollideEdge.cpp in Sources */,
 				26E3A3BCBB84480FAE532BEB /* b2CollidePolygon.cpp in Sources */,
+				F1A04B221BB9E2E30030B32A /* AbyssGUI.cpp in Sources */,
 				09CDC9C51F8248349EBA8A77 /* b2Collision.cpp in Sources */,
 				A54913E60F7B484E94FEAE3E /* b2Distance.cpp in Sources */,
 				A71A561C17C04EC69A2111F0 /* b2DynamicTree.cpp in Sources */,
@@ -763,6 +774,7 @@
 				63FAB80CC73E4E96A7AC9738 /* OscOutboundPacketStream.cpp in Sources */,
 				A9FA66FC02DE413786F59C33 /* OscPrintReceivedElements.cpp in Sources */,
 				1FC6F3CB00FA4F669C83C8EF /* OscReceivedElements.cpp in Sources */,
+				F1A04B251BB9E39F0030B32A /* HTMPreGelly.cpp in Sources */,
 				05A81D1E0C9C4F778F4D4DAE /* OscTypes.cpp in Sources */,
 				570A337B235F41A49A719632 /* NetworkingUtils.cpp in Sources */,
 				F13BC1811B6227DC007F364C /* TACreatureExample.cpp in Sources */,

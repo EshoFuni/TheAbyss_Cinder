@@ -14,7 +14,7 @@ using std::list;
 
 CreatureManager::CreatureManager(){
     // INIT UI PARAMETERS VARIABLES
-    mClasses = {"TACreatureExample", "AGCubus"};
+    mClasses = {"TACreatureExample", "AGCubus", "HTMPreGelly"};
 }
 
 void CreatureManager::update(){
@@ -49,6 +49,9 @@ void CreatureManager::addRandomCreature(){
         case 1:
             mCreatures.push_back( new AGCubus() );
             break;
+            
+        case 2:
+            mCreatures.push_back( new HTMPreGelly() );
 
         default:
             break;
