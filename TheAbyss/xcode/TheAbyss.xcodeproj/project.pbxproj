@@ -76,6 +76,7 @@
 		F13BC1801B6227DC007F364C /* SuperCreature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17C1B6227DC007F364C /* SuperCreature.cpp */; };
 		F13BC1811B6227DC007F364C /* TACreatureExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17D1B6227DC007F364C /* TACreatureExample.cpp */; };
 		F153C9C11B62372000395265 /* Help.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F153C9BF1B62372000395265 /* Help.cpp */; };
+		F16CAE471BB9FCA90082FB0F /* BCIWave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F16CAE451BB9FCA90082FB0F /* BCIWave.cpp */; };
 		F1A04B221BB9E2E30030B32A /* AbyssGUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A04B211BB9E2E30030B32A /* AbyssGUI.cpp */; };
 		F1A04B251BB9E39F0030B32A /* HTMPreGelly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A04B241BB9E39F0030B32A /* HTMPreGelly.cpp */; };
 		F26771AE5D5D45A394AAF51C /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CB35B373C6749CE891E1748 /* OscListener.cpp */; };
@@ -227,6 +228,8 @@
 		F13BC1851B6227F2007F364C /* TACreatureExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TACreatureExample.h; path = ../include/TACreatureExample.h; sourceTree = "<group>"; };
 		F153C9BF1B62372000395265 /* Help.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Help.cpp; path = ../src/Help.cpp; sourceTree = "<group>"; };
 		F153C9C01B62372000395265 /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Help.h; path = ../include/Help.h; sourceTree = "<group>"; };
+		F16CAE451BB9FCA90082FB0F /* BCIWave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BCIWave.cpp; path = ../src/BCIWave.cpp; sourceTree = "<group>"; };
+		F16CAE461BB9FCA90082FB0F /* BCIWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCIWave.h; path = ../include/BCIWave.h; sourceTree = "<group>"; };
 		F1A04B201BB9E2D10030B32A /* AbyssGUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbyssGUI.h; path = ../include/AbyssGUI.h; sourceTree = "<group>"; };
 		F1A04B211BB9E2E30030B32A /* AbyssGUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AbyssGUI.cpp; path = ../src/AbyssGUI.cpp; sourceTree = "<group>"; };
 		F1A04B231BB9E3900030B32A /* HTMPreGelly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMPreGelly.h; path = ../include/HTMPreGelly.h; sourceTree = "<group>"; };
@@ -331,9 +334,10 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A2FB986A37D3411891557C20 /* TheAbyssApp.cpp */,
+				F16CAE451BB9FCA90082FB0F /* BCIWave.cpp */,
 				F1A04B241BB9E39F0030B32A /* HTMPreGelly.cpp */,
 				F1A04B211BB9E2E30030B32A /* AbyssGUI.cpp */,
-				A2FB986A37D3411891557C20 /* TheAbyssApp.cpp */,
 				F1278C311B622EE700EADA30 /* Cam.cpp */,
 				F153C9BF1B62372000395265 /* Help.cpp */,
 				F13BC17B1B6227DC007F364C /* CreatureManager.cpp */,
@@ -430,6 +434,7 @@
 				F153C9C01B62372000395265 /* Help.h */,
 				F13BC1831B6227F2007F364C /* CreatureManager.h */,
 				F13BC1841B6227F2007F364C /* SuperCreature.h */,
+				F16CAE461BB9FCA90082FB0F /* BCIWave.h */,
 				F13BC1851B6227F2007F364C /* TACreatureExample.h */,
 				F13BC1821B6227F2007F364C /* AGCubus.h */,
 				552C4297A9234CE68C7CFAE6 /* Resources.h */,
@@ -755,6 +760,7 @@
 				22F815B2FD8D4F72841C1489 /* b2PolygonContact.cpp in Sources */,
 				7BA3EF9E0A7B4E99BFF47E90 /* b2DistanceJoint.cpp in Sources */,
 				79FA1A65649B400DB7DC1306 /* b2FrictionJoint.cpp in Sources */,
+				F16CAE471BB9FCA90082FB0F /* BCIWave.cpp in Sources */,
 				F841E80B67DD440083C0FD04 /* b2GearJoint.cpp in Sources */,
 				A7360FDE9FE04BAFB35E52C0 /* b2Joint.cpp in Sources */,
 				4FF5871EAF2C48ECB8AD8E20 /* b2MouseJoint.cpp in Sources */,

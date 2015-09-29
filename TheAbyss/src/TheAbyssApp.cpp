@@ -4,6 +4,7 @@
 #include "Cam.h"
 #include "AbyssGUI.h"
 #include "CreatureManager.h"
+#include "BCIWave.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -17,15 +18,12 @@ class TheAbyssApp : public AppNative {
 	void draw();
     void keyDown(KeyEvent event);
     
-    Cam mCam;
-    AbyssGUI mAbyssGUI;
+    // DECLARATIONS
     
-    
-    // MANAGER DECLARATION
-    CreatureManager manager;
-    
-    // CREATURE DECLARATION
-    TACreatureExample theCreature;
+    Cam mCam; // camera
+    AbyssGUI mAbyssGUI; // helpful GUI (press 'H')
+    CreatureManager manager; // class to manage all creatures
+    BCIWave mBCIWave; // waveform representation of BCI data
 };
 
 void TheAbyssApp::prepareSettings(Settings *settings){
@@ -51,12 +49,18 @@ void TheAbyssApp::setup()
     
     // INSTANTIATE MANAGER
     manager = *new CreatureManager();
-}
+    
+    // INSTANTIATE BCI WAVE REPRESENTATION
+    mBCIWave = *new BCIWave(9000, true); //arg1 = port, arg2 = verbose
+    }
 
 void TheAbyssApp::update()
 {
     // CREATURE MOVEMENT
     manager.update();
+    
+    // UPDATE BCI REPRESENTATION
+    mBCIWave.update();
 }
 
 void TheAbyssApp::draw()
@@ -69,9 +73,11 @@ void TheAbyssApp::draw()
     mCam.setCam();
     // DRAW ABYSSGUI
     mAbyssGUI.draw();
-    
     // CREATURE DRAW
     manager.draw();
+    
+    // DRAW BCI WAVE REPRESENTATION
+    mBCIWave.draw();
 }
 
 // KEYBOARD SHORTCUTS

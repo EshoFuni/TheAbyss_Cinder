@@ -10,7 +10,6 @@
 //
 
 #include "CreatureManager.h"
-using std::list;
 
 CreatureManager::CreatureManager(){
     // INIT UI PARAMETERS VARIABLES
