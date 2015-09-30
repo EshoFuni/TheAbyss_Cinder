@@ -19,7 +19,7 @@ class TheAbyssApp : public AppNative {
     void keyDown(KeyEvent event);
     
     // DECLARATIONS
-    
+
     Cam mCam; // camera
     AbyssGUI mAbyssGUI; // helpful GUI (press 'H')
     CreatureManager manager; // class to manage all creatures
@@ -51,7 +51,8 @@ void TheAbyssApp::setup()
     manager = *new CreatureManager();
     
     // INSTANTIATE BCI WAVE REPRESENTATION
-    mBCIWave = *new BCIWave(9000, true); //arg1 = port, arg2 = verbose
+    mBCIWave = *new BCIWave(9000, "/wave1/", 80   , 40.f , 1.f , true);
+                          //port  address    offset maxAmp speed verbose
     }
 
 void TheAbyssApp::update()
@@ -78,6 +79,7 @@ void TheAbyssApp::draw()
     
     // DRAW BCI WAVE REPRESENTATION
     mBCIWave.draw();
+    
 }
 
 // KEYBOARD SHORTCUTS
