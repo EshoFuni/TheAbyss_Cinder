@@ -23,12 +23,12 @@ class TheAbyssApp : public AppNative {
     Cam mCam; // camera
     AbyssGUI mAbyssGUI; // helpful GUI (press 'H')
     CreatureManager manager; // class to manage all creatures
-    BCIWave mBCIWave; // waveform representation of BCI data
+    BCIWave mBCIWave1, mBCIWave2; // waveform representation of BCI data
 };
 
 void TheAbyssApp::prepareSettings(Settings *settings){
     
-    settings->setWindowSize(640, 480);
+    settings->setWindowSize(1440, 900);
     settings->setFrameRate(60.0f);
     settings->setTitle("TheAbyss"); // added the naming (menu feedback)
 
@@ -51,8 +51,9 @@ void TheAbyssApp::setup()
     manager = *new CreatureManager();
     
     // INSTANTIATE BCI WAVE REPRESENTATION
-    mBCIWave = *new BCIWave(9000, "/wave1/", 80   , 40.f , 1.f , true);
-                          //port  address    offset maxAmp speed verbose
+    mBCIWave2 = *new BCIWave(9001, "/wave2/", getWindowWidth() - 33   , 30.f , 1.f , 480  , false);
+    mBCIWave1 = *new BCIWave(9000, "/wave1/", 33   , 30.f , 1.f , 480  , false);
+                          //port  address    offset maxAmp speed size verbose
     }
 
 void TheAbyssApp::update()
@@ -61,7 +62,8 @@ void TheAbyssApp::update()
     manager.update();
     
     // UPDATE BCI REPRESENTATION
-    mBCIWave.update();
+    mBCIWave1.update();
+    mBCIWave2.update();
 }
 
 void TheAbyssApp::draw()
@@ -78,7 +80,8 @@ void TheAbyssApp::draw()
     manager.draw();
     
     // DRAW BCI WAVE REPRESENTATION
-    mBCIWave.draw();
+    mBCIWave1.draw();
+    mBCIWave2.draw();
     
 }
 
