@@ -70,6 +70,9 @@
 		D0548D341D5F4CE4920DB5D9 /* b2RopeJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7438B309CC614EF9AC4AFA40 /* b2RopeJoint.cpp */; };
 		DBBDBF38794D45848C5323FD /* b2Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C16A743A788D4B7487DB5A82 /* b2Timer.cpp */; };
 		DE118A7CF3AC45A2AA525F0A /* b2StackAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78B40E5C25C540F1B11DDEC0 /* b2StackAllocator.cpp */; };
+		F10E59C71BC00CB60041B9A7 /* AGWorm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F10E59C51BC00CB60041B9A7 /* AGWorm.cpp */; };
+		F10E59CA1BC00DC40041B9A7 /* Spring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F10E59C81BC00DC40041B9A7 /* Spring.cpp */; };
+		F10E59CD1BC00DE90041B9A7 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F10E59CB1BC00DE90041B9A7 /* Node.cpp */; };
 		F1278C331B622EE700EADA30 /* Cam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1278C311B622EE700EADA30 /* Cam.cpp */; };
 		F13BC17E1B6227DC007F364C /* AGCubus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17A1B6227DC007F364C /* AGCubus.cpp */; };
 		F13BC17F1B6227DC007F364C /* CreatureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC17B1B6227DC007F364C /* CreatureManager.cpp */; };
@@ -216,6 +219,12 @@
 		EC7D5836EDBD431B9AA4F99A /* b2ContactSolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = b2ContactSolver.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ContactSolver.cpp; sourceTree = "<group>"; };
 		F02B1CE4A941441CBF052D0F /* b2EdgeAndPolygonContact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = b2EdgeAndPolygonContact.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp; sourceTree = "<group>"; };
 		F0A84819F5DC4687AAAF42C3 /* OscBundle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscBundle.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src/OscBundle.cpp; sourceTree = "<group>"; };
+		F10E59C51BC00CB60041B9A7 /* AGWorm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AGWorm.cpp; path = ../src/AGWorm.cpp; sourceTree = "<group>"; };
+		F10E59C61BC00CB60041B9A7 /* AGWorm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGWorm.h; path = ../include/AGWorm.h; sourceTree = "<group>"; };
+		F10E59C81BC00DC40041B9A7 /* Spring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Spring.cpp; path = ../src/Spring.cpp; sourceTree = "<group>"; };
+		F10E59C91BC00DC40041B9A7 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Spring.h; path = ../include/Spring.h; sourceTree = "<group>"; };
+		F10E59CB1BC00DE90041B9A7 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Node.cpp; path = ../src/Node.cpp; sourceTree = "<group>"; };
+		F10E59CC1BC00DE90041B9A7 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = ../include/Node.h; sourceTree = "<group>"; };
 		F1278C311B622EE700EADA30 /* Cam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Cam.cpp; path = ../src/Cam.cpp; sourceTree = "<group>"; };
 		F1278C321B622EE700EADA30 /* Cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cam.h; path = ../include/Cam.h; sourceTree = "<group>"; };
 		F13BC17A1B6227DC007F364C /* AGCubus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AGCubus.cpp; path = ../src/AGCubus.cpp; sourceTree = "<group>"; };
@@ -334,6 +343,9 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F10E59C51BC00CB60041B9A7 /* AGWorm.cpp */,
+				F10E59CB1BC00DE90041B9A7 /* Node.cpp */,
+				F10E59C81BC00DC40041B9A7 /* Spring.cpp */,
 				A2FB986A37D3411891557C20 /* TheAbyssApp.cpp */,
 				F16CAE451BB9FCA90082FB0F /* BCIWave.cpp */,
 				F1A04B241BB9E39F0030B32A /* HTMPreGelly.cpp */,
@@ -438,6 +450,9 @@
 				F13BC1851B6227F2007F364C /* TACreatureExample.h */,
 				F13BC1821B6227F2007F364C /* AGCubus.h */,
 				552C4297A9234CE68C7CFAE6 /* Resources.h */,
+				F10E59C91BC00DC40041B9A7 /* Spring.h */,
+				F10E59CC1BC00DE90041B9A7 /* Node.h */,
+				F10E59C61BC00CB60041B9A7 /* AGWorm.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -747,6 +762,7 @@
 				914FE9BBE65742AEB75F92F0 /* b2Fixture.cpp in Sources */,
 				FFD4A45A65A0479BBCA6D3BD /* b2Island.cpp in Sources */,
 				ACE84886F8FE401289DDA860 /* b2World.cpp in Sources */,
+				F10E59CD1BC00DE90041B9A7 /* Node.cpp in Sources */,
 				F1278C331B622EE700EADA30 /* Cam.cpp in Sources */,
 				CC926A597D584AC2B7D60C6A /* b2WorldCallbacks.cpp in Sources */,
 				55F210AA73A14B69813B5311 /* b2ChainAndCircleContact.cpp in Sources */,
@@ -758,7 +774,9 @@
 				58552D5D9D73459C9638F19D /* b2EdgeAndPolygonContact.cpp in Sources */,
 				FAA53E9E152343F7B13BABE9 /* b2PolygonAndCircleContact.cpp in Sources */,
 				22F815B2FD8D4F72841C1489 /* b2PolygonContact.cpp in Sources */,
+				F10E59C71BC00CB60041B9A7 /* AGWorm.cpp in Sources */,
 				7BA3EF9E0A7B4E99BFF47E90 /* b2DistanceJoint.cpp in Sources */,
+				F10E59CA1BC00DC40041B9A7 /* Spring.cpp in Sources */,
 				79FA1A65649B400DB7DC1306 /* b2FrictionJoint.cpp in Sources */,
 				F16CAE471BB9FCA90082FB0F /* BCIWave.cpp in Sources */,
 				F841E80B67DD440083C0FD04 /* b2GearJoint.cpp in Sources */,
@@ -857,6 +875,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CINDER_PATH = ../../../../../../../Applications/cinder_0.8.6_mac;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -868,7 +887,7 @@
 					../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx10.8;
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include ../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src ../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include";
 			};
@@ -878,6 +897,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CINDER_PATH = ../../../../../../../Applications/cinder_0.8.6_mac;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -889,6 +909,7 @@
 					../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include/macosx,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx10.8;
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/include ../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src ../../../../../../../Applications/cinder_0.8.6_mac/blocks/QuickTime/include";
 			};

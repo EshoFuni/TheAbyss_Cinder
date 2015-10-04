@@ -19,7 +19,7 @@ class TheAbyssApp : public AppNative {
     void keyDown(KeyEvent event);
     
     // DECLARATIONS
-
+//  int frameCount;
     Cam mCam; // camera
     AbyssGUI mAbyssGUI; // helpful GUI (press 'H')
     CreatureManager manager; // class to manage all creatures
@@ -28,7 +28,7 @@ class TheAbyssApp : public AppNative {
 
 void TheAbyssApp::prepareSettings(Settings *settings){
     
-    settings->setWindowSize(1440, 900);
+    settings->setWindowSize(640, 480);
     settings->setFrameRate(60.0f);
     settings->setTitle("TheAbyss"); // added the naming (menu feedback)
 
@@ -36,6 +36,7 @@ void TheAbyssApp::prepareSettings(Settings *settings){
 
 void TheAbyssApp::setup()
 {
+    
     // WINDOW NAMING
     ci::app::getWindow()->setTitle("TheAbyss"); // added
 
@@ -68,6 +69,7 @@ void TheAbyssApp::update()
 
 void TheAbyssApp::draw()
 {
+//    frameCount++;
 	// CLEAR BACKGROUND
 	gl::clear( Color( 0, 0, 0 ) );
     gl::enableAlphaBlending();
@@ -96,6 +98,9 @@ void TheAbyssApp::keyDown(KeyEvent event){
     }
     if (event.getChar() == '-'){
         manager.removeLastCreature();
+    }
+    if (event.getChar() == 'w'){
+        manager.addWorm();
     }
 }
 

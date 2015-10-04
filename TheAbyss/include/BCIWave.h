@@ -42,7 +42,6 @@ public:
     bool mVerbose; // print osc message to console
     vector<float> mColor; // wave trace color
     Path2d mWave; // wave line
-    PolyLine2f mLine; // ????????
     
 private:
     osc::Listener listener;

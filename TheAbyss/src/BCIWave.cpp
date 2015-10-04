@@ -31,10 +31,6 @@ BCIWave::BCIWave(int port, string address, int offset, float maxAmp, float speed
     
     width = app::getWindowWidth();
     height = app::getWindowHeight();
-
-    // SET INITIAL WAVE PATH
-    //mWave.clear();
-    //mWave.moveTo( mOffset + mAmp.back(), yPos.back() );
     
 }
 
@@ -92,7 +88,6 @@ void BCIWave::draw(){
     // enable 2D drawing
     gl::setMatricesWindow( app::getWindowSize() );
     
-    //updateX();
     wave();
     
 }
