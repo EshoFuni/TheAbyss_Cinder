@@ -52,8 +52,8 @@ void TheAbyssApp::setup()
     manager = *new CreatureManager();
     
     // INSTANTIATE BCI WAVE REPRESENTATION
-    mBCIWave2 = *new BCIWave(9001, "/wave2/", getWindowWidth() - 33   , 30.f , 1.f , 480  , false);
-    mBCIWave1 = *new BCIWave(9000, "/wave1/", 33   , 30.f , 1.f , 480  , false);
+    mBCIWave2 = *new BCIWave(9001, "/wave2/", "/trigger2/",getWindowWidth() - 33   , 30.f , 1.f , 480  , false);
+    mBCIWave1 = *new BCIWave(9000, "/wave1/", "/trigger1/",33   , 30.f , 1.f , 480  , false);
                           //port  address    offset maxAmp speed size verbose
     }
 

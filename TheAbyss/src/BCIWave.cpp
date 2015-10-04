@@ -10,9 +10,9 @@
 
 BCIWave::BCIWave(){}
 
-BCIWave::BCIWave(int port, string address, int offset, float maxAmp, float speed, int size, bool verbose){
+BCIWave::BCIWave(int port, string address, string eAddress,int offset, float maxAmp, float speed, int size, bool verbose){
     listener.setup(port);
-    mAddress = address;
+    waveAddress = address;
     mVerbose = verbose;
     mSize = size;
     mOffset = offset;
@@ -28,10 +28,15 @@ BCIWave::BCIWave(int port, string address, int offset, float maxAmp, float speed
         //app::console() << mColor.at(i) << endl;
     }
     
+    // EVENT TRIGGER VARIABLES
+    eventTrigger = 0; // 0 - no trigger, 1 - trigger, 2 - drawing horizontal, 3 - drawing vertical
+    eventAddress = eAddress;
+    eventColor = 1.f;
+    eventSpeed = 2.f;
     
+    // OTHER VARIABLES
     width = app::getWindowWidth();
     height = app::getWindowHeight();
-    
 }
 
 
@@ -41,7 +46,7 @@ void BCIWave::update(){
         cinder::osc::Message message;
 		listener.getNextMessage( &message );
         
-        if( message.getAddress() == mAddress){
+        if( message.getAddress() == waveAddress){
             // UPDATE AMP VALUE
             rotate(mAmp.begin(), mAmp.end()-1, mAmp.end()); // right shift vector
             mAmp.at(0) = message.getArgAsFloat(0) * mMaxAmp + mOffset; // insert new value at pos(0)
@@ -54,9 +59,14 @@ void BCIWave::update(){
                 cinder::app::console() << "wave1 value = " << message.getArgAsFloat(0) << endl;
             }
         }
-        else {
-            if(mVerbose == true)
-                cinder::app::console() << "UNEXPECTED OSC MESSAGE !!!" << endl;;
+        if (message.getAddress() == eventAddress && eventTrigger == 0){
+            eventTrigger = 1;
+            if(mVerbose == true){
+                cinder::app::console() << eventAddress << message.getArgAsFloat(0) << endl;
+            }
+        }
+        if (message.getAddress() != eventAddress && message.getAddress() != waveAddress){
+            cinder::app::console() << "UNEXPECTED OSC MESSAGE !!!" << endl;
         }
     }
 }
@@ -80,6 +90,50 @@ void BCIWave::wave(){
     gl::end();
 }
 
+void BCIWave::event(){
+    if( eventTrigger == 1){
+        eventXStart = mAmp.front();
+        eventYStart = yPos.front();
+        eventX = mAmp.front();
+        eventY = yPos.front();
+        eventTrigger = 2;
+        eventColor = 1.f;
+    }
+    if(eventTrigger == 2){ // draw horizontal line
+        eventX+=eventSpeed;
+        gl::color(1.f, 1.f, 1.f, eventColor);
+        gl::drawLine(Vec2f(eventXStart, eventYStart), Vec2f(eventX, eventYStart));
+        eventColor -= mTrail;
+        if(eventX > width/2){
+            eventTrigger = 3;
+        }
+    }
+
+    if(eventTrigger == 3){ // draw vertical line
+        if(eventYStart < height/2){
+            eventY += eventSpeed;
+            gl::color(1.f, 1.f, 1.f, eventColor);
+            gl::drawLine(Vec2f(eventXStart, eventYStart), Vec2f(eventX, eventYStart));
+            gl::drawLine(Vec2f(eventX, eventYStart), Vec2f(eventX, eventY));
+            eventColor -= mTrail;
+            if(eventY > height/2){
+                eventTrigger = 0;
+            }
+        }
+        else {
+            eventY -= eventSpeed;
+            gl::color(1.f, 1.f, 1.f, eventColor);
+            gl::drawLine(Vec2f(eventXStart, eventYStart), Vec2f(eventX, eventYStart));
+            gl::drawLine(Vec2f(eventX, eventYStart), Vec2f(eventX, eventY));
+            eventColor -= mTrail;
+            if(eventY < height/2){
+                eventTrigger = 0;
+            }
+        }
+        
+    }
+}
+
 void BCIWave::draw(){
     // disable 
     //gl::disableAlphaBlending();
@@ -89,6 +143,7 @@ void BCIWave::draw(){
     gl::setMatricesWindow( app::getWindowSize() );
     
     wave();
+    event();
     
 }
 

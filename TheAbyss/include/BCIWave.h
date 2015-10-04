@@ -26,29 +26,35 @@ using namespace ci;
 class BCIWave {
 public:
     BCIWave(); //using default constructor because of (cinder::app)
-    BCIWave(int port, string address, int offset, float maxAmp, float speed, int size, bool verbose); // constructor
-    void update(); // read osc messages and update values ??? DEPRECATED ????
+    BCIWave(int port, string address, string eAddress, int offset, float maxAmp, float speed, int size, bool verbose); // constructor
+    void update(); // read osc messages and update values (mAmp, yPos, eventTrigger)
     void draw(); // draw wave
     void wave(); // set wave path
+    void event();
     
-    string mAddress;
+    string waveAddress;
+    string eventAddress;
     vector<float> mAmp; // signal amplitude value (vector)
     
     float mMaxAmp; // signal maximum amplitude
     int mOffset; // signal offset (X axis)
     float mSpeed; // signal speed on Y axis
-    float mTrail; // signal trail amount
     int mSize; // wave size (vector size)
     bool mVerbose; // print osc message to console
     vector<float> mColor; // wave trace color
-    Path2d mWave; // wave line
+//    Path2d mWave; // wave line
     
 private:
     osc::Listener listener;
     int width, height; // screen width and height
+    float mTrail; // signal trail amount
     vector<float> yPos; // current y position
     float pYPos; // previous y position
     float pAmp; // previous amp value
+    int eventTrigger; // variable used to trigger events
+    int eventXStart, eventYStart, eventX, eventY;
+    float eventColor;
+    float eventSpeed;
 };
 
 #endif /* defined(__TheAbyss__BCIWave__) */
