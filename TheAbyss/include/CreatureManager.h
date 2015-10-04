@@ -17,6 +17,7 @@
 #include "AGCubus.h"
 #include "SuperCreature.h"
 #include "HTMPreGelly.h"
+#include "AGWorm.h"
 
 using namespace ci;
 
@@ -28,6 +29,7 @@ public:
 
     void addRandomCreature();
     void removeLastCreature();
+    void addWorm(); // FOR TESTING ONLY!!!!!!
     
     std::vector<SuperCreature*> mCreatures; // creature container
     std::list<string> mClasses; //list of all creature classes

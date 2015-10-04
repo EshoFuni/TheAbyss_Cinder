@@ -10,11 +10,10 @@
 //
 
 #include "CreatureManager.h"
-using std::list;
 
 CreatureManager::CreatureManager(){
     // INIT UI PARAMETERS VARIABLES
-    mClasses = {"TACreatureExample", "AGCubus", "HTMPreGelly"};
+    mClasses = {"TACreatureExample", "AGCubus", "HTMPreGelly", "AGWorm"};
 }
 
 void CreatureManager::update(){
@@ -52,7 +51,9 @@ void CreatureManager::addRandomCreature(){
             
         case 2:
             mCreatures.push_back( new HTMPreGelly() );
-
+        
+        case 3:
+            mCreatures.push_back( new AGWorm() );
         default:
             break;
     }
@@ -64,6 +65,10 @@ void CreatureManager::removeLastCreature(){
         mCreatures.pop_back();
     }
     
+}
+
+void CreatureManager::addWorm(){
+    mCreatures.push_back( new AGWorm() );
 }
 
 
