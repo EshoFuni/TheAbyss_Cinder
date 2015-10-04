@@ -25,6 +25,8 @@ TACreatureExample::TACreatureExample(){
 
 
 void TACreatureExample::move(){
+    
+    // stupidly simle example of movement
     if(pos.x < mThresh.x) { pos.x++; }
     else { mThresh.x = Rand::randFloat(-640.f); pos.x--; }
     
@@ -37,7 +39,6 @@ void TACreatureExample::move(){
 }
 
 void TACreatureExample::draw(){
-    //gl::drawCube(mPos, mSize);
-    //gl::drawColorCube(mPos, mSize);
-    gl::drawStrokedCube(pos, sca);
+    
+    gl::drawSphere(pos, sca.x, 64);
 }

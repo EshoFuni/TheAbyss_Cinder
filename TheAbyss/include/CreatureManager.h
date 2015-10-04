@@ -2,9 +2,7 @@
 //  CreatureManager.h
 //  TheAbyss
 //
-//  Created by Tiago Ângelo on 7/23/15,
-//  added Horácio Tomé-Marques on 7/24/15,
-//  and João Menezes from of these days!;–}.
+//  Created by Tiago Ângelo on 7/23/15.
 //
 //
 
@@ -12,11 +10,14 @@
 #define __TheAbyss__CreatureManager__
 
 #pragma once
-#include <list>
+#include <vector>
+#include "cinder/Rand.h"
 
 #include "TACreatureExample.h"
+#include "AGCubus.h"
+#include "SuperCreature.h"
 #include "HTMPreGelly.h"
-//#include "SuperCreature.h"
+#include "AGWorm.h"
 
 using namespace ci;
 
@@ -25,11 +26,17 @@ public:
     CreatureManager();
     void update();
     void draw();
-    void addCreature();
-    void removeCreature();
 
-    std::list<TACreatureExample> mCreatures0;
-    std::list<HTMPreGelly> mCreatures1;
+    void addRandomCreature();
+    void removeLastCreature();
+    void addWorm(); // FOR TESTING ONLY!!!!!!
+    
+    std::vector<SuperCreature*> mCreatures; // creature container
+    std::list<string> mClasses; //list of all creature classes
+    
+
+private:
+    
 };
 
 #endif /* defined(__TheAbyss__CreatureManager__) */

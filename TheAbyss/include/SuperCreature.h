@@ -10,6 +10,7 @@
 #define __TheAbyss__SuperCreature__
 
 #pragma once
+#include "cinder/Rand.h"
 
 using namespace ci;
 using namespace std;
@@ -18,23 +19,25 @@ class SuperCreature {
 public:
     
     
-    SuperCreature();
-//    ~SuperCreature();
+    SuperCreature(); // constructor
+    virtual ~SuperCreature(){}; // virtual destructor
     
-//    virtual void move();
-//    virtual void draw();
+    virtual void move(){};
+    virtual void draw(){};
     void applyTransforms();
     
     string creatureName, creatureAuthor, creatureVersion;
     //CreatureDate creatureDate;
     
-    //CreatureManager cm;
     
 protected:
     Vec3f pos, rot, sca;
 private:
     Vec3f projectedPos;
     float energy, power;
+
+//    CreatureManager cm;
+
 };
 
 #endif /* defined(__TheAbyss__SuperCreature__) */
