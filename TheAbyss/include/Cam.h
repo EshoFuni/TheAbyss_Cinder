@@ -7,6 +7,7 @@
 //
 
 #ifndef __TheAbyss__Cam__
+
 #define __TheAbyss__Cam__
 
 #pragma once

@@ -20,6 +20,8 @@ class TheAbyssApp : public AppNative {
     void fadeIn();
     void fadeOut();
     
+    void addCreature();
+    
     // DECLARATIONS
 //  int frameCount;
     Cam mCam; // camera
@@ -28,13 +30,16 @@ class TheAbyssApp : public AppNative {
     BCIWave mBCIWave1, mBCIWave2; // waveform representation of BCI data
 
     // FADE VARIABLES
-    int fadeTime = 10000;
+    int fadeTime = 1000;
     float fadeInC = 1.f;
     float fadeOutC = 0.f;
     bool fade_in = false;
     bool fade_inBegin = true;
     bool fade_out = false;
     Rectf r;
+    
+    bool add_creature = false;
+    
 };
 
 void TheAbyssApp::prepareSettings(Settings *settings){
@@ -79,6 +84,10 @@ void TheAbyssApp::update()
     // UPDATE BCI REPRESENTATION
     mBCIWave1.update();
     mBCIWave2.update();
+    
+    addCreature();
+    add_creature = false;
+    
 }
 
 void TheAbyssApp::draw()
@@ -136,7 +145,17 @@ void TheAbyssApp::keyDown(KeyEvent event){
     if (event.getChar() == 'b') { // BEGIN
         fade_inBegin = true;
     }
+    if (event.getChar() == 'p'){
+        //manager.addPXP();
+        add_creature = true;
+    }
     
+}
+
+void TheAbyssApp::addCreature(){
+    if(add_creature == true){
+        manager.addPXP();
+    }
 }
 
 void TheAbyssApp::fadeIn(){

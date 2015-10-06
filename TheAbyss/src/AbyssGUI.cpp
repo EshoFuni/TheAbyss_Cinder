@@ -39,6 +39,7 @@ void AbyssGUI::draw(){
         mParams->draw();
     }
     cinder::gl::rotate(mSceneRotation); //scene
+    
     // light(s)
     glEnable( GL_LIGHTING );
     glEnable( GL_LIGHT0 );

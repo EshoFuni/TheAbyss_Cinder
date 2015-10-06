@@ -30,13 +30,14 @@ public:
     
     string creatureName, creatureAuthor, creatureVersion;
     //CreatureDate creatureDate;
-    
+    float energy, power;
+
     
 protected:
     Vec3f pos, rot, sca;
 private:
     Vec3f projectedPos;
-    float energy, power;
+//    float energy, power;
 
 //    CreatureManager cm;
 

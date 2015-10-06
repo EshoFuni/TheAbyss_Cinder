@@ -14,6 +14,7 @@
 	#include "cinder/Vector.h"
 	#include "cinder/Quaternion.h"
 
-//    extern int frameCount;
-    // SEE: http://www.cplusplus.com/forum/general/21368/
+//extern int frames;
+// SEE: http://www.cplusplus.com/forum/general/21368/
+
 #endif

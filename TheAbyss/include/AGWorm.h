@@ -37,9 +37,8 @@ public:
     float rSpeed, rDamp;
     float freq1, freq2;
     
-    int frameCount;
-    
 private:
+    int frameCount;
     int num;
     float len;
     float damp;

@@ -31,3 +31,4 @@ void Cam::setCam(){
     mCamera.lookAt(mEye, mCenter, mUp);
     gl::setMatrices(mCamera);
 }
+

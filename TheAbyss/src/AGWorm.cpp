@@ -14,7 +14,6 @@ AGWorm::AGWorm(){
     creatureName = "El Worm";
     creatureVersion = "Alpha";
 //    setDate(2011, 6, 10); //Y,M,D
-    frameCount = 0;
     
     num = randInt(7, 22); // (7, 22)
     len = randFloat(2, 15);
