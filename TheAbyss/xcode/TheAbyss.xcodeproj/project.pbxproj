@@ -21,6 +21,7 @@
 		0E7CF1D6219944F48520A19D /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 522EFFC0E2F343A480616627 /* b2Rope.cpp */; };
 		108D2F831BC40D6900E57CA2 /* OTFather.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 108D2F821BC40D6900E57CA2 /* OTFather.cpp */; };
 		109D8D671BC28E8500F37CEE /* PXPSonar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109D8D651BC28E8500F37CEE /* PXPSonar.cpp */; };
+		10F215B91BC417DD00318D55 /* HTMZoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10F215B71BC417DD00318D55 /* HTMZoid.cpp */; };
 		196FF14DF5B34FC68E8FFB2E /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEE391DD0FE4801A872A844 /* b2CollideEdge.cpp */; };
 		1E0B911D43F349A285A1FC03 /* b2CircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 611302CEFFAE43F69BD8A3C4 /* b2CircleContact.cpp */; };
 		1F29F71ED3CB40EF8F20BDAE /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 948D21D7222B4AD7A3F9EDD9 /* b2RevoluteJoint.cpp */; };
@@ -101,10 +102,12 @@
 		092086B643D14F43BB7F1A5A /* b2Fixture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2Fixture.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/b2Fixture.h; sourceTree = "<group>"; };
 		0FBB19BC89004204B5E3CC52 /* b2EdgeAndPolygonContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2EdgeAndPolygonContact.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		108D2F811BC40D5D00E57CA2 /* OTFather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTFather.h; sourceTree = "<group>"; };
-		108D2F821BC40D6900E57CA2 /* OTFather.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OTFather.cpp; sourceTree = "<group>"; };
+		108D2F811BC40D5D00E57CA2 /* OTFather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTFather.h; path = ../include/OTFather.h; sourceTree = "<group>"; };
+		108D2F821BC40D6900E57CA2 /* OTFather.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OTFather.cpp; path = ../src/OTFather.cpp; sourceTree = "<group>"; };
 		109D8D651BC28E8500F37CEE /* PXPSonar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PXPSonar.cpp; path = ../src/PXPSonar.cpp; sourceTree = "<group>"; };
 		109D8D661BC28E8500F37CEE /* PXPSonar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXPSonar.h; path = ../include/PXPSonar.h; sourceTree = "<group>"; };
+		10F215B71BC417DD00318D55 /* HTMZoid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HTMZoid.cpp; path = ../src/HTMZoid.cpp; sourceTree = "<group>"; };
+		10F215B81BC417DD00318D55 /* HTMZoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMZoid.h; path = ../include/HTMZoid.h; sourceTree = "<group>"; };
 		11966EB704484CFCA5DB35F7 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscOutboundPacketStream.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src/osc/OscOutboundPacketStream.h; sourceTree = "<group>"; };
 		1215DFF1CAE14B85AA374136 /* b2PolygonAndCircleContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2PolygonAndCircleContact.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h; sourceTree = "<group>"; };
 		1CB35B373C6749CE891E1748 /* OscListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscListener.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src/OscListener.cpp; sourceTree = "<group>"; };
@@ -349,6 +352,7 @@
 				108D2F821BC40D6900E57CA2 /* OTFather.cpp */,
 				109D8D651BC28E8500F37CEE /* PXPSonar.cpp */,
 				F10E59C51BC00CB60041B9A7 /* AGWorm.cpp */,
+				10F215B71BC417DD00318D55 /* HTMZoid.cpp */,
 				F1A04B241BB9E39F0030B32A /* HTMPreGelly.cpp */,
 				F13BC17A1B6227DC007F364C /* AGCubus.cpp */,
 				A2FB986A37D3411891557C20 /* TheAbyssApp.cpp */,
@@ -446,6 +450,7 @@
 				108D2F811BC40D5D00E57CA2 /* OTFather.h */,
 				109D8D661BC28E8500F37CEE /* PXPSonar.h */,
 				F10E59C61BC00CB60041B9A7 /* AGWorm.h */,
+				10F215B81BC417DD00318D55 /* HTMZoid.h */,
 				F1A04B231BB9E3900030B32A /* HTMPreGelly.h */,
 				F13BC1821B6227F2007F364C /* AGCubus.h */,
 				F1A04B201BB9E2D10030B32A /* AbyssGUI.h */,
@@ -757,6 +762,7 @@
 				3995AF0455E547A9AA5C39B2 /* b2Draw.cpp in Sources */,
 				9753329CCBC045379D2701CB /* b2Math.cpp in Sources */,
 				91E645DB3D964B96AF3742A9 /* b2Settings.cpp in Sources */,
+				10F215B91BC417DD00318D55 /* HTMZoid.cpp in Sources */,
 				DE118A7CF3AC45A2AA525F0A /* b2StackAllocator.cpp in Sources */,
 				F13BC1801B6227DC007F364C /* SuperCreature.cpp in Sources */,
 				DBBDBF38794D45848C5323FD /* b2Timer.cpp in Sources */,
