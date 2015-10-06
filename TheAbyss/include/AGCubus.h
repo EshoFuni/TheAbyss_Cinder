@@ -13,13 +13,17 @@
 #pragma once
 
 #include "SuperCreature.h"
+#include "Node.h"
+#include "Spring.h"
+#include "cinder/Rand.h"
 
 //using namespace ci;
 
 class AGCubus: public SuperCreature{
-public:
-    
+public:    
     AGCubus(); // constructor
+    
+    // METHOD DECLARATION
     virtual void move();
     virtual void draw();
     

@@ -13,7 +13,7 @@
 
 CreatureManager::CreatureManager(){
     // INIT UI PARAMETERS VARIABLES
-    mClasses = {"TACreatureExample", "AGCubus", "HTMPreGelly", "AGWorm"};
+    mClasses = {"TACreatureExample", "AGCubus", "HTMPreGelly", "AGWorm", "PXPSonar"};
 }
 
 void CreatureManager::update(){
@@ -54,6 +54,10 @@ void CreatureManager::addRandomCreature(){
         
         case 3:
             mCreatures.push_back( new AGWorm() );
+            
+        case 4:
+            mCreatures.push_back( new PXPSonar() ); //test
+            
         default:
             break;
     }
@@ -67,8 +71,15 @@ void CreatureManager::removeLastCreature(){
     
 }
 
+void CreatureManager::addGelly(){
+    mCreatures.push_back( new HTMPreGelly() );
+}
+
 void CreatureManager::addWorm(){
     mCreatures.push_back( new AGWorm() );
 }
 
+void CreatureManager::addPXPSonar(){
+    mCreatures.push_back( new PXPSonar() ); //test
+}
 

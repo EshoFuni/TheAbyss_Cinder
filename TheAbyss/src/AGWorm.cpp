@@ -83,6 +83,7 @@ void AGWorm::draw(){
     }
     gl::end();
     gl::pushMatrices();
+    cinder::gl::enableWireframe(); //new
 
     int i = 0;
 //    noStroke();
@@ -95,7 +96,10 @@ void AGWorm::draw(){
         float d = lmap( sin(baseFreq - i*freq2), -1.f, 1.f, radius, radius * 2);
         gl::pushMatrices();
         gl::translate(n);
+        gl::color(255, 255, 255);
         gl::drawSphere(Vec3f::zero(), d);
+        //gl::drawSphere(Vec3f::zero(), 10, 3); //new: size 10, detail 3
+        gl::disableWireframe(); //new
         gl::popMatrices();
         i++;
     }

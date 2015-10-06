@@ -40,5 +40,5 @@ void HTMPreGelly::draw(){ // CREATURE DRAWING
     //gl::drawCube(pos, sca);
     gl::drawSphere (pos, radius, geomSegments);
     gl::disableWireframe();
-    glEnd();
+    gl::end();
 }

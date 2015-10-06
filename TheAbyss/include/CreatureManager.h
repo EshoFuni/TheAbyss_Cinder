@@ -18,6 +18,7 @@
 #include "SuperCreature.h"
 #include "HTMPreGelly.h"
 #include "AGWorm.h"
+#include "PXPSonar.h" //test
 
 using namespace ci;
 
@@ -29,7 +30,9 @@ public:
 
     void addRandomCreature();
     void removeLastCreature();
+    void addGelly(); // FOR TESTING ONLY!!!!!!
     void addWorm(); // FOR TESTING ONLY!!!!!!
+    void addPXPSonar(); // FOR TESTING ONLY!!!!!!
     
     std::vector<SuperCreature*> mCreatures; // creature container
     std::list<string> mClasses; //list of all creature classes

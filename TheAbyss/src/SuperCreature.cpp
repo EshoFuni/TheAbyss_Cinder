@@ -13,7 +13,8 @@
 
 SuperCreature::SuperCreature(){
     energy = 100.0;
-    power = 0.02;
+//    power = 0.02;
+    power = 0.0; // never die
     pos = *new Vec3f();
     projectedPos = *new Vec3f();
     rot = *new Vec3f();

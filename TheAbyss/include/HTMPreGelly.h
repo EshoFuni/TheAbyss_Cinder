@@ -12,15 +12,18 @@
 #pragma once
 
 #include "SuperCreature.h"
+#include "Node.h"
+#include "Spring.h"
+#include "cinder/Rand.h"
 
 using namespace ci;
 
 class HTMPreGelly: public SuperCreature{
 public:
-    
     HTMPreGelly(); // constructor
+ 
     // METHOD DECLARATION
-    void update();
+    // void update();  // disabled
     virtual void move();
     virtual void draw();
     
@@ -28,6 +31,8 @@ public:
     Vec3f mThresh; // position threshold to change direction
     float radius; //added polygon radius
     float geomSegments; //added polygon resolution
+    
+    int frameCount;
     
 };
 

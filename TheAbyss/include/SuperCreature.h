@@ -26,6 +26,8 @@ public:
     virtual void draw(){};
     void applyTransforms();
     
+    float energy; //???? public???
+    
     string creatureName, creatureAuthor, creatureVersion;
     //CreatureDate creatureDate;
     
@@ -34,7 +36,8 @@ protected:
     Vec3f pos, rot, sca;
 private:
     Vec3f projectedPos;
-    float energy, power;
+//    float energy, power;
+      float power;
 
 //    CreatureManager cm;
 

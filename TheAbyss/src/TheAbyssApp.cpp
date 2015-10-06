@@ -18,6 +18,7 @@ class TheAbyssApp : public AppNative {
 	void draw();
     void keyDown(KeyEvent event);
     
+    
     // DECLARATIONS
 //  int frameCount;
     Cam mCam; // camera
@@ -99,8 +100,14 @@ void TheAbyssApp::keyDown(KeyEvent event){
     if (event.getChar() == '-'){
         manager.removeLastCreature();
     }
+    if (event.getChar() == 'g'){
+        manager.addGelly();
+    }
     if (event.getChar() == 'w'){
         manager.addWorm();
+    }
+    if (event.getChar() == 'p'){ //test
+        manager.addPXPSonar();
     }
 }
 

@@ -19,6 +19,8 @@
 		09CDC9C51F8248349EBA8A77 /* b2Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97957B6FD1748B196331719 /* b2Collision.cpp */; };
 		0C13FF9D631841B6B5B4EF7C /* b2PulleyJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 401C86FF5928433C97E33D68 /* b2PulleyJoint.cpp */; };
 		0E7CF1D6219944F48520A19D /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 522EFFC0E2F343A480616627 /* b2Rope.cpp */; };
+		108D2F831BC40D6900E57CA2 /* OTFather.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 108D2F821BC40D6900E57CA2 /* OTFather.cpp */; };
+		109D8D671BC28E8500F37CEE /* PXPSonar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109D8D651BC28E8500F37CEE /* PXPSonar.cpp */; };
 		196FF14DF5B34FC68E8FFB2E /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEE391DD0FE4801A872A844 /* b2CollideEdge.cpp */; };
 		1E0B911D43F349A285A1FC03 /* b2CircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 611302CEFFAE43F69BD8A3C4 /* b2CircleContact.cpp */; };
 		1F29F71ED3CB40EF8F20BDAE /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 948D21D7222B4AD7A3F9EDD9 /* b2RevoluteJoint.cpp */; };
@@ -90,15 +92,19 @@
 
 /* Begin PBXFileReference section */
 		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
-		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = ../../../../../../../System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = ../../../../../../../System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = ../../../../../../../System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = ../../../../../../../System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		022F1C9622D84DBA9F805423 /* b2ContactManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2ContactManager.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/b2ContactManager.h; sourceTree = "<group>"; };
 		075F797E17174547BAB5B35F /* b2MouseJoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = b2MouseJoint.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2MouseJoint.cpp; sourceTree = "<group>"; };
 		092086B643D14F43BB7F1A5A /* b2Fixture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2Fixture.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/b2Fixture.h; sourceTree = "<group>"; };
 		0FBB19BC89004204B5E3CC52 /* b2EdgeAndPolygonContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2EdgeAndPolygonContact.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		108D2F811BC40D5D00E57CA2 /* OTFather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTFather.h; sourceTree = "<group>"; };
+		108D2F821BC40D6900E57CA2 /* OTFather.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OTFather.cpp; sourceTree = "<group>"; };
+		109D8D651BC28E8500F37CEE /* PXPSonar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PXPSonar.cpp; path = ../src/PXPSonar.cpp; sourceTree = "<group>"; };
+		109D8D661BC28E8500F37CEE /* PXPSonar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXPSonar.h; path = ../include/PXPSonar.h; sourceTree = "<group>"; };
 		11966EB704484CFCA5DB35F7 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscOutboundPacketStream.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src/osc/OscOutboundPacketStream.h; sourceTree = "<group>"; };
 		1215DFF1CAE14B85AA374136 /* b2PolygonAndCircleContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2PolygonAndCircleContact.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h; sourceTree = "<group>"; };
 		1CB35B373C6749CE891E1748 /* OscListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscListener.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/OSC/src/OscListener.cpp; sourceTree = "<group>"; };
@@ -163,7 +169,7 @@
 		948D21D7222B4AD7A3F9EDD9 /* b2RevoluteJoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = b2RevoluteJoint.cpp; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp; sourceTree = "<group>"; };
 		9C857420DFA84BBF8D875FD6 /* b2Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2Math.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Common/b2Math.h; sourceTree = "<group>"; };
 		9E9C9694CC6F4DA6A875070B /* b2TimeStep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2TimeStep.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/b2TimeStep.h; sourceTree = "<group>"; };
-		A07A6956886949158B5AF6CC /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
+		A07A6956886949158B5AF6CC /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = ../../../../../../../System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
 		A2FB986A37D3411891557C20 /* TheAbyssApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = TheAbyssApp.cpp; path = ../src/TheAbyssApp.cpp; sourceTree = "<group>"; };
 		A467276E296F4ABFA1C8A2AC /* b2BlockAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2BlockAllocator.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Common/b2BlockAllocator.h; sourceTree = "<group>"; };
 		A6770C7E8ED54ED98A7D1104 /* b2WeldJoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = b2WeldJoint.h; path = ../../../../../../../Applications/cinder_0.8.6_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.h; sourceTree = "<group>"; };
@@ -340,15 +346,17 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				108D2F821BC40D6900E57CA2 /* OTFather.cpp */,
+				109D8D651BC28E8500F37CEE /* PXPSonar.cpp */,
+				F10E59C51BC00CB60041B9A7 /* AGWorm.cpp */,
+				F1A04B241BB9E39F0030B32A /* HTMPreGelly.cpp */,
+				F13BC17A1B6227DC007F364C /* AGCubus.cpp */,
 				A2FB986A37D3411891557C20 /* TheAbyssApp.cpp */,
 				F1278C311B622EE700EADA30 /* Cam.cpp */,
 				F1A04B211BB9E2E30030B32A /* AbyssGUI.cpp */,
 				F16CAE451BB9FCA90082FB0F /* BCIWave.cpp */,
 				F13BC17B1B6227DC007F364C /* CreatureManager.cpp */,
 				F13BC17C1B6227DC007F364C /* SuperCreature.cpp */,
-				F13BC17A1B6227DC007F364C /* AGCubus.cpp */,
-				F10E59C51BC00CB60041B9A7 /* AGWorm.cpp */,
-				F1A04B241BB9E39F0030B32A /* HTMPreGelly.cpp */,
 				F13BC17D1B6227DC007F364C /* TACreatureExample.cpp */,
 				F10E59CB1BC00DE90041B9A7 /* Node.cpp */,
 				F10E59C81BC00DC40041B9A7 /* Spring.cpp */,
@@ -435,7 +443,11 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				108D2F811BC40D5D00E57CA2 /* OTFather.h */,
+				109D8D661BC28E8500F37CEE /* PXPSonar.h */,
+				F10E59C61BC00CB60041B9A7 /* AGWorm.h */,
 				F1A04B231BB9E3900030B32A /* HTMPreGelly.h */,
+				F13BC1821B6227F2007F364C /* AGCubus.h */,
 				F1A04B201BB9E2D10030B32A /* AbyssGUI.h */,
 				E92703AFC47741019CC48908 /* TheAbyss_Prefix.pch */,
 				F1278C321B622EE700EADA30 /* Cam.h */,
@@ -443,11 +455,9 @@
 				F13BC1841B6227F2007F364C /* SuperCreature.h */,
 				F16CAE461BB9FCA90082FB0F /* BCIWave.h */,
 				F13BC1851B6227F2007F364C /* TACreatureExample.h */,
-				F13BC1821B6227F2007F364C /* AGCubus.h */,
 				552C4297A9234CE68C7CFAE6 /* Resources.h */,
 				F10E59C91BC00DC40041B9A7 /* Spring.h */,
 				F10E59CC1BC00DE90041B9A7 /* Node.h */,
-				F10E59C61BC00CB60041B9A7 /* AGWorm.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -743,6 +753,7 @@
 				6298FC813D804BEFA948943C /* b2EdgeShape.cpp in Sources */,
 				706A9983F38143008DA2263F /* b2PolygonShape.cpp in Sources */,
 				7D06CDFF47EF42A2BD88FA3B /* b2BlockAllocator.cpp in Sources */,
+				109D8D671BC28E8500F37CEE /* PXPSonar.cpp in Sources */,
 				3995AF0455E547A9AA5C39B2 /* b2Draw.cpp in Sources */,
 				9753329CCBC045379D2701CB /* b2Math.cpp in Sources */,
 				91E645DB3D964B96AF3742A9 /* b2Settings.cpp in Sources */,
@@ -751,6 +762,7 @@
 				DBBDBF38794D45848C5323FD /* b2Timer.cpp in Sources */,
 				F13BC17E1B6227DC007F364C /* AGCubus.cpp in Sources */,
 				303E937744E145B69709EA61 /* b2Body.cpp in Sources */,
+				108D2F831BC40D6900E57CA2 /* OTFather.cpp in Sources */,
 				A767DE99DE0844D1BFFC8838 /* b2ContactManager.cpp in Sources */,
 				F13BC17F1B6227DC007F364C /* CreatureManager.cpp in Sources */,
 				914FE9BBE65742AEB75F92F0 /* b2Fixture.cpp in Sources */,
@@ -828,6 +840,7 @@
 					../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/lib/macosx/libpng16.a,
 				);
 				PRODUCT_NAME = TheAbyss;
+				SDKROOT = macosx;
 				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
 			};
@@ -859,6 +872,7 @@
 					../../../../../../../Applications/cinder_0.8.6_mac/blocks/Cairo/lib/macosx/libpng16.a,
 				);
 				PRODUCT_NAME = TheAbyss;
+				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = YES;
 				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
