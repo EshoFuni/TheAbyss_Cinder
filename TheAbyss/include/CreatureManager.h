@@ -16,7 +16,7 @@
 #include "SuperCreature.h"
 #include "AGWorm.h"
 //#include "HTMZoid.h"
-//#include "OTFather.h"
+#include "OTFather.h"
 #include "PXPSonar.h"
 
 using namespace ci;

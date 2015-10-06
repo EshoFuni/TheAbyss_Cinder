@@ -13,7 +13,7 @@
 
 CreatureManager::CreatureManager(){
     // INIT UI PARAMETERS VARIABLES
-    mClasses = {"AGWorm", "PXPSonar"};
+    mClasses = {"AGWorm", "PXPSonar", "OTFather"};
 }
 
 void CreatureManager::update(){
@@ -49,11 +49,13 @@ void CreatureManager::addRandomCreature(){
 //            mCreatures.push_back( new HTMZoid() );
 //            break;
 //            
-//        case 2:
-//            mCreatures.push_back( new TACreatureExample() );
-        
         case 1:
+            mCreatures.push_back( new OTFather() );
+            break;
+        
+        case 2:
             mCreatures.push_back( new PXPSonar() );
+            break;
         default:
             break;
     }

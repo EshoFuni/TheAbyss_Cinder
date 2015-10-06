@@ -7,7 +7,6 @@
 //
 
 #ifndef __TheAbyss__PXPSonar__
-#define __TheAbyss__PXPSonar__
 
 #pragma once
 
@@ -15,6 +14,7 @@
 #include "cinder/Rand.h"
 #include "cinder/Sphere.h"
 //#include <math.h>
+#define __TheAbyss__PXPSonar__
 
 using namespace ci;
 
@@ -38,6 +38,7 @@ public:
     
 private:
     int frameCount;
+    //    app::getElapsedFrames()
 };
 
 #endif /* defined(__TheAbyss__PXPSonar__) */

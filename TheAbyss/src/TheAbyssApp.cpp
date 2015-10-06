@@ -20,8 +20,6 @@ class TheAbyssApp : public AppNative {
     void fadeIn();
     void fadeOut();
     
-    void addCreature();
-    
     // DECLARATIONS
 //  int frameCount;
     Cam mCam; // camera
@@ -37,9 +35,7 @@ class TheAbyssApp : public AppNative {
     bool fade_inBegin = true;
     bool fade_out = false;
     Rectf r;
-    
-    bool add_creature = false;
-    
+        
 };
 
 void TheAbyssApp::prepareSettings(Settings *settings){
@@ -74,7 +70,12 @@ void TheAbyssApp::setup()
     mBCIWave2 = *new BCIWave(9001, "/wave2/", "/trigger2/",getWindowWidth() - 33   , 30.f , 1.f , 480  , false);
     mBCIWave1 = *new BCIWave(9000, "/wave1/", "/trigger1/",33   , 30.f , 1.f , 480  , false);
                           //port  address    offset maxAmp speed size verbose
-    }
+
+//    gl::enableDepthRead();
+//    gl::enableDepthWrite();
+//    glDepthFunc(GL_EQUAL);
+//    glBlendFunc(GL_ONE_MINUS_DST_ALPHA,GL_DST_ALPHA);
+}
 
 void TheAbyssApp::update()
 {
@@ -84,9 +85,6 @@ void TheAbyssApp::update()
     // UPDATE BCI REPRESENTATION
     mBCIWave1.update();
     mBCIWave2.update();
-    
-    addCreature();
-    add_creature = false;
     
 }
 
@@ -146,17 +144,11 @@ void TheAbyssApp::keyDown(KeyEvent event){
         fade_inBegin = true;
     }
     if (event.getChar() == 'p'){
-        //manager.addPXP();
-        add_creature = true;
+        manager.addPXP();
     }
     
 }
 
-void TheAbyssApp::addCreature(){
-    if(add_creature == true){
-        manager.addPXP();
-    }
-}
 
 void TheAbyssApp::fadeIn(){
     if (fade_inBegin == true && fade_in == false){
