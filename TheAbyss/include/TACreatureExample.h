@@ -23,6 +23,8 @@ public:
     // METHOD DECLARATION
     virtual void move();
     virtual void draw();
+    virtual void complexPlus();
+    virtual void complexMinus();
     
     
     // VARIABLE DECLARATION

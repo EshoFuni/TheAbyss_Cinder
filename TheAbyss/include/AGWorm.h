@@ -25,6 +25,8 @@ public:
     // METHOD DECLARATION
     virtual void move();
     virtual void draw();
+    virtual void complexPlus();
+    virtual void complexMinus();
     
     // VARIABLE DECLARATION
     std::vector<Node> nodes;
@@ -36,6 +38,12 @@ public:
     float freq1, freq2;
     
     int frameCount;
+    
+private:
+    int num;
+    float len;
+    float damp;
+    float k;
     
 };
 

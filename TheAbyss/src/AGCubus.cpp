@@ -38,3 +38,11 @@ void AGCubus::move(){
 void AGCubus::draw(){
     gl::drawStrokedCube(pos, sca);
 }
+
+void AGCubus::complexPlus(){
+    // complexify creature
+}
+
+void AGCubus::complexMinus(){
+    // de-complexify creature
+}
