@@ -42,3 +42,11 @@ void TACreatureExample::draw(){
     
     gl::drawSphere(pos, sca.x, 64);
 }
+
+void TACreatureExample::complexPlus(){
+    // complexify creature
+}
+
+void TACreatureExample::complexMinus(){
+    // de-complexify creature
+}

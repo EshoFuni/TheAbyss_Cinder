@@ -67,6 +67,18 @@ void CreatureManager::removeLastCreature(){
     
 }
 
+void CreatureManager::compPlus(){
+    for(int i = 0; i<mCreatures.size(); i++){
+        mCreatures[i]->complexPlus();
+    }
+}
+
+void CreatureManager::compMinus(){
+    for(int i = 0; i<mCreatures.size(); i++){
+        mCreatures[i]->complexMinus();
+    }
+}
+
 void CreatureManager::addWorm(){
     mCreatures.push_back( new AGWorm() );
 }

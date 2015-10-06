@@ -24,6 +24,8 @@ public:
     
     virtual void move(){};
     virtual void draw(){};
+    virtual void complexPlus(){};
+    virtual void complexMinus(){};
     void applyTransforms();
     
     string creatureName, creatureAuthor, creatureVersion;

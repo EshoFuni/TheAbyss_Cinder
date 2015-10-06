@@ -16,10 +16,11 @@ AGWorm::AGWorm(){
 //    setDate(2011, 6, 10); //Y,M,D
     frameCount = 0;
     
-    int num = randInt(7, 22); // (7, 22)
-    float len = randFloat(2, 15);
-    float damp = randFloat(0.85, 0.95);
-    float k = randFloat(0.15, 0.3);
+    num = randInt(7, 22); // (7, 22)
+    len = randFloat(2, 15);
+    damp = randFloat(0.85, 0.95);
+    k = randFloat(0.15, 0.3);
+    
     radius = randFloat(1.5, 2.5);
     rSpeed = randFloat(50.f, 150.f);
     rDamp = randFloat(0.005, 0.02);
@@ -100,4 +101,22 @@ void AGWorm::draw(){
         i++;
     }
     frameCount++;
+}
+
+void AGWorm::complexPlus(){
+    // complexify creature
+    if (num < 50){
+        num++;
+        Vec3f p = pos + Vec3f(randFloat(-1, 1), randFloat(-1, 1), randFloat(-1, 1));
+        Node n = *new Node(p, damp);
+        nodes.push_back(n);
+    }
+}
+
+void AGWorm::complexMinus(){
+    // de-complexify creature
+    if ( num > 2) {
+        num--;
+        nodes.pop_back();
+    }
 }

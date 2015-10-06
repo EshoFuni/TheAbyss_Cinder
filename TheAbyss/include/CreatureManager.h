@@ -26,9 +26,11 @@ public:
     CreatureManager();
     void update();
     void draw();
-
+    
     void addRandomCreature();
     void removeLastCreature();
+    void compPlus();
+    void compMinus();
     void addWorm(); // FOR TESTING ONLY!!!!!!
     
     std::vector<SuperCreature*> mCreatures; // creature container
