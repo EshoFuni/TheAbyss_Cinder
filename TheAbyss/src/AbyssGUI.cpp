@@ -41,8 +41,10 @@ void AbyssGUI::draw(){
     cinder::gl::rotate(mSceneRotation); //scene
     
     // light(s)
+    /*
     glEnable( GL_LIGHTING );
     glEnable( GL_LIGHT0 );
     GLfloat lightPosition[] = { -mLightDirection.x, -mLightDirection.y, -mLightDirection.z, 0 };
     glLightfv( GL_LIGHT0, GL_POSITION, lightPosition );
+     */
 }

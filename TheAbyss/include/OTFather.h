@@ -37,6 +37,7 @@ public:
     float l;
 //    int detail = 2;
     Perlin mPerlin;
+
     
     // TRIGO
     float sm1, sm2;

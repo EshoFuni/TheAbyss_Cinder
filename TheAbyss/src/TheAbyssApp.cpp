@@ -35,7 +35,7 @@ class TheAbyssApp : public AppNative {
     bool fade_inBegin = true;
     bool fade_out = false;
     Rectf r;
-        
+            
 };
 
 void TheAbyssApp::prepareSettings(Settings *settings){
@@ -98,6 +98,9 @@ void TheAbyssApp::draw()
     // SET CAMERA
     mCam.setCam();
     
+    // DRAW ABYSSGUI
+    mAbyssGUI.draw();
+    
     // CREATURE DRAW
     manager.draw();
     
@@ -109,8 +112,7 @@ void TheAbyssApp::draw()
     fadeIn();
     fadeOut();
     
-    // DRAW ABYSSGUI
-    mAbyssGUI.draw();
+    
 }
 
 // KEYBOARD SHORTCUTS
@@ -146,7 +148,12 @@ void TheAbyssApp::keyDown(KeyEvent event){
     if (event.getChar() == 'p'){
         manager.addPXP();
     }
-    
+    if (event.getChar() == 'f') {
+        manager.addFather();
+    }
+    if (event.getChar() == 'u'){
+        manager.addHubert();
+    }
 }
 
 

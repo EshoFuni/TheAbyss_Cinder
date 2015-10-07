@@ -13,26 +13,26 @@
 
 CreatureManager::CreatureManager(){
     // INIT UI PARAMETERS VARIABLES
-    mClasses = {"AGWorm", "PXPSonar", "OTFather"};
+    mClasses = {"AGWorm", "LPHubert", "PXPSonar", "OTFather"};
 }
 
 void CreatureManager::update(){
-//    for(vector<SuperCreature*>::iterator p = mCreatures.begin(); p != mCreatures.end(); p++ ){
-//        p->move();
+    for(vector<SuperCreature*>::iterator p = mCreatures.begin(); p != mCreatures.end(); p++ ){
+        (*p)->move();
+    }//SEE: http://stackoverflow.com/questions/10325774/iterator-with-vector-pointer
+//    for(int i = 0; i<mCreatures.size(); i++){
+//        mCreatures[i]->move();
 //    }
-    for(int i = 0; i<mCreatures.size(); i++){
-        mCreatures[i]->move();
-    }
 }
 
 void CreatureManager::draw(){
-//    for (vector<SuperCreature*>::iterator p = mCreatures.begin(); p != mCreatures.end(); p++) {
-//        p->draw();
-//    }
-    for(int i = 0; i<mCreatures.size(); i++){
-        mCreatures[i]->draw();
+    for (vector<SuperCreature*>::iterator p = mCreatures.begin(); p != mCreatures.end(); p++) {
+        (*p)->draw();
     }
-
+//    for(int i = 0; i<mCreatures.size(); i++){
+//        mCreatures[i]->draw();
+//    }
+//
 }
 
 
@@ -45,15 +45,15 @@ void CreatureManager::addRandomCreature(){
             mCreatures.push_back( new AGWorm() );
             break;
             
-//        case 1:
-//            mCreatures.push_back( new HTMZoid() );
-//            break;
-//            
         case 1:
+            mCreatures.push_back( new TAHubert() );
+            break;
+            
+        case 2:
             mCreatures.push_back( new OTFather() );
             break;
         
-        case 2:
+        case 3:
             mCreatures.push_back( new PXPSonar() );
             break;
         default:
@@ -89,4 +89,11 @@ void CreatureManager::addPXP(){
     mCreatures.push_back( new PXPSonar() );
 }
 
+void CreatureManager::addFather(){
+    mCreatures.push_back( new OTFather() );
+}
+
+void CreatureManager::addHubert(){
+    mCreatures.push_back( new TAHubert() );
+}
 

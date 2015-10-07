@@ -15,7 +15,7 @@
 
 #include "SuperCreature.h"
 #include "AGWorm.h"
-#include "LPHubert.h"
+//#include "LPHubert.h"
 #include "TAHubert.h"
 #include "OTFather.h"
 #include "PXPSonar.h"

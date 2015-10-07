@@ -15,7 +15,7 @@ OTFather::OTFather(){
     
     numSegmenti = randInt(10, 20);
     numTentacoli = 1;
-    numPinne = randInt(1, 4);
+    numPinne = randInt(2, 7);
     distPinne = randFloat(0.2, 0.5);
     l = randFloat(80, 160);
     
@@ -24,9 +24,9 @@ OTFather::OTFather(){
     
     pVel = *new Vec3f(randVec3f());
     rVel = *new Vec3f(randVec3f());
-    rVel *= randFloat(0.01, 0.03);
+    rVel *= randFloat(0.1, 0.3); // 0.01 0.03
     noiseVel = *new Vec3f(randVec3f());
-    noiseVel *= randFloat(0.005, 0.03);
+    noiseVel *= randFloat(0.005, 0.03); // 0.005 0.03
     float s = randFloat(0.5, 1);
     sca.set(s,s,s);
 }
@@ -66,7 +66,7 @@ void OTFather::draw() {
     gl::rotate(Vec3f(0.f, -(numPinne-1) * distPinne / 2, 0.f));
     
     
-    for (int k=0; k<numPinne; k++) {
+    for (int k=1; k<numPinne+1; k++) {
         
         float s = (cos(M_2_PI / (numPinne-1) * k));
         s = lmap(s, 1.f, -1.f, 0.9f, 1.f);
