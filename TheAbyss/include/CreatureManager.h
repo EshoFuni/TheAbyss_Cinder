@@ -15,7 +15,8 @@
 
 #include "SuperCreature.h"
 #include "AGWorm.h"
-//#include "HTMZoid.h"
+#include "LPHubert.h"
+#include "TAHubert.h"
 #include "OTFather.h"
 #include "PXPSonar.h"
 
@@ -33,6 +34,8 @@ public:
     void compMinus();
     void addWorm(); // FOR TESTING ONLY!!!!!!
     void addPXP();
+    void addFather();
+    void addHubert();
     
     std::vector<SuperCreature*> mCreatures; // creature container
     std::list<string> mClasses; //list of all creature classes
