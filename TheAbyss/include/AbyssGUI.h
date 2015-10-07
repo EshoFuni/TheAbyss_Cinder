@@ -31,9 +31,18 @@ public:
     // UI PARAMETERS VARIABLES
     ci::params::InterfaceGlRef mParams; // parameters member variable (console)
     ci::Quatf mSceneRotation; // scene rotation variable
-    void setLightDirection( Vec3f direction ); // parameters member variable (light)
-    Vec3f getLightDirection() { return mLightDirection; }
+    void setLightDirection( Vec3f direction ); // parameters member variable
+    void setLightDirection1( Vec3f direction1 ); // parameters member variable (light)
+    Vec3f getLightDirection(){
+        return mLightDirection;
+    }
+    
+    Vec3f getLightDirection1(){
+        return mLightDirection1;
+        
+    }
     Vec3f mLightDirection;
+    Vec3f mLightDirection1;
     bool showAbyssGUI = true;
 };
 
